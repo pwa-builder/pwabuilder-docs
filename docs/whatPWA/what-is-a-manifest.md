@@ -1,0 +1,3 @@
+# What is a Manifest
+
+The Manifest for Web Apps is a JSON-based manifest file that provides a centralized place to put metadata associated with a web application (like app name, icons, presentation, etc.), thus solving the problem of having to maintain an heterogeneous set of meta tags and link tags to support each platform. PWAs use this manifest to control the appearance and behavior of the app when it is installed and launched from the user device. For more details see the [Web App Manifest Specification](http://www.w3.org/TR/appmanifest/).
