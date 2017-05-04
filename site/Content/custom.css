@@ -60,3 +60,13 @@ button:disabled {
         padding: 0 1vw;
     }
 }
+
+
+#main {
+    font-size:1.1em;
+    line-height: 1.5em;
+}
+#main img {
+    max-width: 100%;
+    text-align: center;
+}

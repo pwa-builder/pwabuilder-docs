@@ -13,55 +13,154 @@
 
 
 
-    <link href="~/Content/manifoldjs-vendor.min.css" rel="stylesheet" />
+    <link href="/Content/manifoldjs-vendor.min.css" rel="stylesheet" />
 
-    <link href="~/Content/manifoldjs-site.min.css" rel="stylesheet" />
+    <link href="/Content/manifoldjs-site.min.css" rel="stylesheet" />
 
-    <link href="~/Content/custom.css" rel="stylesheet" />
+    <link href="/Content/custom.css" rel="stylesheet" />
 
 
 
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
 
-    <link href="~/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="/favicon.ico" rel="icon" type="image/x-icon">
 
 </head>
 
   <body>
+
+
+     <div class="application no-header">
+        <header class="pwa-header pure-g">
+            <div class="pwa-header-left pure-u pure-u-md-1-5">
+                <a href="/">
+                    <img class="pwa-header-logo" src="/Content/images/logo.png" alt="PWA Builder logo">
+                </a>
+            </div>
+            <nav class="pwa-header-right pure-u pure-u-md-4-5">
+                <ul class="pwa-header-menu">
+                    <li class="pwa-header-item">
+                        <a class="pwa-header-link" href="https://www.pwabuilder.com">PWA Builder</a>
+                    </li>
+                    <li class="pwa-header-item">
+                        <a class="pwa-header-link" href="/">Documentation</a>
+                    </li>
+                    <li class="pwa-header-item">
+                        <a class="pwa-header-link active" href="http://appimagegenerator-pre.azurewebsites.net/">App Image Generator</a>
+                    </li>
+                    <li class="pwa-header-item">
+                        <a class="pwa-header-link" href="https://github.com/manifoldjs" target="_blank">Github</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <article class="l-app-style l-full-width" id="main">
+         <section class="pwa-infos l-pad">   
     <h1 id="how-to-package-android">How to Package Android</h1>
 <ol>
 <li>
 <p>In the <strong>Publish PWA</strong> step of the builder wizard, locate the <strong>Android</strong> section and click the <strong>Download</strong> button. The app package will be generated and downloaded to your local drive.</p>
-<p><img alt="Android Polyfill" src="../images/android-polyfill.png" />
-2. Extract the package into a local folder
-3. Open the project in Android Studio
-1. Download and install the <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java SDK</a>
-2. <a href="http://developer.android.com/sdk/installing/index.html?pkg=studio">Download</a> and install Android Studio and the Android SDK
-3. Open Android Studio and select the <strong>Import project</strong> option. Select the folder <strong>projects/Polyfills/cordova/platforms/android</strong> and click <strong>OK</strong>.</p>
-<pre><code>**Note:** The version of Gradle installed by Android studio might not be compatible with the project's Gradle configuration. If that is the case, Android Studio will show an error and provide an option to fix/upgrade the project.
-</code></pre>
+<p><img alt="Android Polyfill" src="../images/android-polyfill.png" /></p>
+</li>
+<li>
+<p>Extract the package into a local folder</p>
+</li>
+<li>
+<p>Open the project in Android Studio</p>
 <ol>
-<li>Test the project</li>
-<li>In Android Studio, select <strong>Run &gt; Run</strong> in the menu bar to build and run the app</li>
-<li>If it is the first time running the app, Android Studio asks to select a deployment target. Select a device or emulator to install and run the app</li>
+<li>
+<p>Download and install the <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java SDK</a></p>
+</li>
+<li>
+<p><a href="http://developer.android.com/sdk/installing/index.html?pkg=studio">Download</a> and install Android Studio and the Android SDK</p>
+</li>
+<li>
+<p>Open Android Studio and select the <strong>Import project</strong> option. Select the folder <strong>projects/Polyfills/cordova/platforms/android</strong> and click <strong>OK</strong>.</p>
+<p><strong>Note:</strong> The version of Gradle installed by Android studio might not be compatible with the project's Gradle configuration. If that is the case, Android Studio will show an error and provide an option to fix/upgrade the project.</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Test the project</p>
+<ol>
+<li>
+<p>In Android Studio, select <strong>Run &gt; Run</strong> in the menu bar to build and run the app</p>
+</li>
+<li>
+<p>If it is the first time running the app, Android Studio asks to select a deployment target. Select a device or emulator to install and run the app</p>
+</li>
 </ol>
 </li>
 <li>
 <p>Build the project</p>
 <ol>
-<li>Select the build variant (debug|release) from the <strong>Build Variants</strong> window</li>
+<li>
+<p>Select the build variant (debug|release) from the <strong>Build Variants</strong> window</p>
+</li>
 <li>
 <p>In Android Studio, select <strong>Build &gt; Build APK</strong> in the menu bar. The APKs are saved in <strong>projects/Polyfills/cordova/platforms/android/build/outputs/apk/</strong></p>
-<p><strong>Note:</strong> Before you can generate a release version of your app for public distribution, you must <a href="https://developer.android.com/tools/publishing/app-signing.html">sign your APK</a>
-6. Submit the app to the Store
-    1. Go to the <a href="https://play.google.com/apps/publish/signup/">Google Play Developer Console</a>
-    2. Follow the steps to:
-1. Setup an Android Developer account
-2. Reserve a name for your app
-3. Upload your app package</p>
+<p><strong>Note:</strong> Before you can generate a release version of your app for public distribution, you must <a href="https://developer.android.com/tools/publishing/app-signing.html">sign your APK</a></p>
+</li>
+</ol>
+</li>
+<li>
+<p>Submit the app to the Store</p>
+<ol>
+<li>
+<p>Go to the <a href="https://play.google.com/apps/publish/signup/">Google Play Developer Console</a></p>
+</li>
+<li>
+<p>Follow the steps to:</p>
+<ol>
+<li>
+<p>Setup an Android Developer account</p>
+</li>
+<li>
+<p>Reserve a name for your app</p>
+</li>
+<li>
+<p>Upload your app package</p>
 </li>
 </ol>
 </li>
 </ol>
+</li>
+</ol>
+        </section>
+        </article>
+
+        <footer class="pwa-footer pure-g">
+            <div class="pure-u-1-2 pure-u-md-1-5">
+                <a class="pwa-footer-action pwa-footer-action--block" href="@ViewBag.GenerateLink">Generate</a>
+                <a class="pwa-footer-action pwa-footer-action--block" href="https://github.com/manifoldjs/manifoldJS/wiki" target="_blank">Documentation</a>
+            </div>
+            <div class="pure-u-1-2 pure-u-md-1-5">
+                <a class="pwa-footer-action pwa-footer-action--block" href="/">App Image Generator</a>
+                <a class="pwa-footer-action pwa-footer-action--block" href="https://github.com/manifoldjs" target="_blank">Github</a>
+            </div>
+            <div class="pwa-footer-social pure-u-1 pure-u-md-3-5">
+                <a class="pwa-footer-logo_action" href="https://twitter.com/boyofgreen" target="_blank">
+                    <img class="pwa-footer-logo" src="/Content/images/logo_twitter.svg">
+                </a>
+                <a class="pwa-footer-logo_action" href="https://github.com/manifoldjs" target="_blank">
+                    <img class="pwa-footer-logo" src="/Content/images/logo_github.svg">
+                </a>
+                <a class="pwa-footer-logo_action" href="https://www.npmjs.com/package/manifoldjs" target="_blank">
+                    <img class="pwa-footer-logo pwa-footer-logo--big" src="/Content/images/logo_npm.svg">
+                </a>
+                <a class="pwa-footer-logo_action" href="http://stackoverflow.com/questions/tagged/manifoldjs" target="_blank">
+                    <img class="pwa-footer-logo pwa-footer-logo--small" src="/Content/images/logo_stackoverflow.svg">
+                </a>
+            </div>
+            <div class="pure-u-1 pwa-footer-copy">
+                &copy; @DateTime.Today.Year ManifoldJS. All rights reserved. <span class="divider">|</span> <a class="pwa-footer-action" href="@ViewBag.LicenseLink">License</a>
+            </div>
+        </footer>
+    </div>
+
+
+
+
   </body>
 </html>
