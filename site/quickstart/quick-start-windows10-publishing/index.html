@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quick start windows10 publishing - PWA Builder Docs</title>
+    <title>PWABuilder</title>
+
+    <meta name="description" content="All the tools you need to build and deploy your Progressive Web Apps.">
+
+    <meta name="application-name" content="Progressive Web Apps Builder">
+
+
+
+    <link href="~/Content/manifoldjs-vendor.min.css" rel="stylesheet" />
+
+    <link href="~/Content/manifoldjs-site.min.css" rel="stylesheet" />
+
+    <link href="~/Content/custom.css" rel="stylesheet" />
+
+
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <link href="~/favicon.ico" rel="icon" type="image/x-icon">
+
+</head>
+
+  <body>
+    <h1 id="quick-start-windows-10-publishing">Quick Start Windows 10 Publishing</h1>
+<p>Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts.</p>
+<p>Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines. </p>
+<h2 id="publish-through-website">Publish through website</h2>
+<p>Your PWA can be created and app listing generated from the below one step publishing button.</p>
+<ol>
+<li>Click <strong>Publish 1-step</strong> button under the Windows panel</li>
+<li>
+<p>Enter the user name or company name and a valid email address</p>
+<p><img alt="Publish Package" src="../images/quickstart-pwa-website-publish-package.png" /></p>
+</li>
+<li>
+<p>Click <strong>Submit</strong>.</p>
+</li>
+</ol>
+<h2 id="publish-via-cli">Publish via CLI</h2>
+<p>Your PWA can be created and app listing generated for supported platforms (using the -p option, in this case windows10).</p>
+<p><strong>Example:</strong>
+<code>pwabuilder package C:\Projects\HotBeats -p windows10 -a -l debug</code></p>
+<p><img alt="Service Worker Code" src="../images/quickstart-pwa-cli-publish-windows10.png" /></p>
+  </body>
+</html>

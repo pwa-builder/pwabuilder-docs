@@ -4,25 +4,105 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2017-01-04</lastmod>
+     <lastmod>2017-05-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
     
+        
     <url>
-     <loc>/whatPWA/whatIsAPWA/</loc>
-     <lastmod>2017-01-04</lastmod>
+     <loc>/quickstart/quick-start-polyfills/</loc>
+     <lastmod>2017-05-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
+    <url>
+     <loc>/quickstart/quick-start-pwa-on-website/</loc>
+     <lastmod>2017-05-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/quickstart/quick-start-pwa-using-cli-tools/</loc>
+     <lastmod>2017-05-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/quickstart/quick-start-windows10-publishing/</loc>
+     <lastmod>2017-05-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     <url>
      <loc>/quickstart/quickstart/</loc>
-     <lastmod>2017-01-04</lastmod>
+     <lastmod>2017-05-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/tools/how-to-package-android/</loc>
+     <lastmod>2017-05-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/tools/how-to-package-ios/</loc>
+     <lastmod>2017-05-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/tools/how-to-package-mac/</loc>
+     <lastmod>2017-05-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/tools/how-to-package-windows7/</loc>
+     <lastmod>2017-05-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/tools/</loc>
+     <lastmod>2017-05-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/whatPWA/pwa-min-requirements/</loc>
+     <lastmod>2017-05-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/whatPWA/what-is-a-manifest/</loc>
+     <lastmod>2017-05-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/whatPWA/what-is-a-service-worker/</loc>
+     <lastmod>2017-05-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/whatPWA/whatIsAPWA/</loc>
+     <lastmod>2017-05-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>

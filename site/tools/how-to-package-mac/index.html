@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>How to package mac - PWA Builder Docs</title>
+    <title>PWABuilder</title>
+
+    <meta name="description" content="All the tools you need to build and deploy your Progressive Web Apps.">
+
+    <meta name="application-name" content="Progressive Web Apps Builder">
+
+
+
+    <link href="~/Content/manifoldjs-vendor.min.css" rel="stylesheet" />
+
+    <link href="~/Content/manifoldjs-site.min.css" rel="stylesheet" />
+
+    <link href="~/Content/custom.css" rel="stylesheet" />
+
+
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <link href="~/favicon.ico" rel="icon" type="image/x-icon">
+
+</head>
+
+  <body>
+    <h1 id="how-to-package-macos">How to Package MacOS</h1>
+<p>MacOS is supported in the <a href="https://www.npmjs.com/package/pwabuilder-mac">macOS platform module</a> for pwabuilder.</p>
+<ol>
+<li>Make sure <strong>pwabuilder</strong> installed. If not, install using: </li>
+</ol>
+<p><code>npm install -g pwabuilder</code></p>
+<ol>
+<li>Add <strong>macOS platform</strong> by:</li>
+</ol>
+<p><code>pwabuilder platform add mac pwabuilder-mac</code></p>
+<ol>
+<li>Then, use pwabuilder to generate the polyfills: </li>
+</ol>
+<p><code>pwabuilder https://btdj.azurewebsites.net/ -d C:\Projects -l debug -p mac</code></p>
+<ol>
+<li>
+<p>You'll need to download and install <a href="https://developer.apple.com/xcode/downloads/">Xcode</a></p>
+</li>
+<li>
+<p>Then, you can follow the<a href="https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/SubmittingYourApp/SubmittingYourApp.html"> Submitting Your App to the Store</a> steps in the Apple's App Distribution Guide.</p>
+</li>
+</ol>
+  </body>
+</html>

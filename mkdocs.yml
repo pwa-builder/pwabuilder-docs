@@ -1,6 +1,3 @@
-site_name: Manifiki
-pages:
-    - Home: index.md
-    - What is a PWA: whatPWA/whatIsAPWA.md
-    - Quick Start: quickstart/quickstart.md
-    - tools: tools/index.md
+site_name: PWA Builder Docs
+theme: null
+theme_dir: 'theme_dir'

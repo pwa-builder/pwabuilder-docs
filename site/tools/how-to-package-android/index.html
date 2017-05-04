@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>How to package android - PWA Builder Docs</title>
+    <title>PWABuilder</title>
+
+    <meta name="description" content="All the tools you need to build and deploy your Progressive Web Apps.">
+
+    <meta name="application-name" content="Progressive Web Apps Builder">
+
+
+
+    <link href="~/Content/manifoldjs-vendor.min.css" rel="stylesheet" />
+
+    <link href="~/Content/manifoldjs-site.min.css" rel="stylesheet" />
+
+    <link href="~/Content/custom.css" rel="stylesheet" />
+
+
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <link href="~/favicon.ico" rel="icon" type="image/x-icon">
+
+</head>
+
+  <body>
+    <h1 id="how-to-package-android">How to Package Android</h1>
+<ol>
+<li>
+<p>In the <strong>Publish PWA</strong> step of the builder wizard, locate the <strong>Android</strong> section and click the <strong>Download</strong> button. The app package will be generated and downloaded to your local drive.</p>
+<p><img alt="Android Polyfill" src="../images/android-polyfill.png" />
+2. Extract the package into a local folder
+3. Open the project in Android Studio
+1. Download and install the <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java SDK</a>
+2. <a href="http://developer.android.com/sdk/installing/index.html?pkg=studio">Download</a> and install Android Studio and the Android SDK
+3. Open Android Studio and select the <strong>Import project</strong> option. Select the folder <strong>projects/Polyfills/cordova/platforms/android</strong> and click <strong>OK</strong>.</p>
+<pre><code>**Note:** The version of Gradle installed by Android studio might not be compatible with the project's Gradle configuration. If that is the case, Android Studio will show an error and provide an option to fix/upgrade the project.
+</code></pre>
+<ol>
+<li>Test the project</li>
+<li>In Android Studio, select <strong>Run &gt; Run</strong> in the menu bar to build and run the app</li>
+<li>If it is the first time running the app, Android Studio asks to select a deployment target. Select a device or emulator to install and run the app</li>
+</ol>
+</li>
+<li>
+<p>Build the project</p>
+<ol>
+<li>Select the build variant (debug|release) from the <strong>Build Variants</strong> window</li>
+<li>
+<p>In Android Studio, select <strong>Build &gt; Build APK</strong> in the menu bar. The APKs are saved in <strong>projects/Polyfills/cordova/platforms/android/build/outputs/apk/</strong></p>
+<p><strong>Note:</strong> Before you can generate a release version of your app for public distribution, you must <a href="https://developer.android.com/tools/publishing/app-signing.html">sign your APK</a>
+6. Submit the app to the Store
+    1. Go to the <a href="https://play.google.com/apps/publish/signup/">Google Play Developer Console</a>
+    2. Follow the steps to:
+1. Setup an Android Developer account
+2. Reserve a name for your app
+3. Upload your app package</p>
+</li>
+</ol>
+</li>
+</ol>
+  </body>
+</html>
