@@ -1,6 +1,6 @@
 # Quick Start PWA using CLI tools
 
-This quick start walks you through the steps to create a Progressive Web App (PWA) from scratch using the **pwabuilder CLI Tools**. Make sure you meet the [minimum requirements](../whatPWA/PWA-min-requirements.md).
+This quick start walks you through the steps to create a Progressive Web App (PWA) from scratch using the **pwabuilder CLI Tools**. Make sure you meet the [minimum requirements](../whatPWA/pwa-min-requirements.md).
 
 The first step is to build the Manifest for your application using the **pwabuilder CLI Tools**. The builder will search in the home page of your site looking for information about the app in specific meta tags. For more information, read [What is a Manifest](../whatPWA/what-is-a-manifest.md).
 
