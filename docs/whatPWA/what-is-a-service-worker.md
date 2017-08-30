@@ -4,7 +4,7 @@ Service workers are scripts that your browser runs in the background and act as 
 
 ```javascript
 
-navigator.serviceWorker.register('pwabuider-sw.js', {
+navigator.serviceWorker.register('pwabuilder-sw.js', {
     scope: './'
   })
 
