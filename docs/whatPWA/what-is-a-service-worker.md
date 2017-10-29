@@ -17,7 +17,7 @@ Service Workers lie between the network and device to supplement the content ena
 
 //This is the "Offline page" service worker
 
-//Install stage sets up the offline page in the cahche and opens a new cache
+//Install stage sets up the offline page in the cache and opens a new cache
 self.addEventListener('install', function(event) {
   var offlinePage = new Request('offline.html');
   event.waitUntil(
