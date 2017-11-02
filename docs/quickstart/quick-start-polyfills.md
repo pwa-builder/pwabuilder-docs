@@ -12,7 +12,7 @@ In case of Android, PWAs are available through the browser; however, you can gen
 ### iOS
 
 1. Follow the Quick Start PWA on Web o the Quick Start PWA using CLI tools to generate the polyfills for iOS.
-2. Then, follow the [instructions](../tools/how-to-package-ios.md) to publish your Android app.
+2. Then, follow the [instructions](../tools/how-to-package-ios.md) to publish your iOS app.
 
 ### MacOS
 
