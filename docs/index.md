@@ -3,7 +3,7 @@
 
 ## Get to Know PWAs
 1. [PWA minimum requirements](whatPWA/pwa-min-requirements.md)
-2. [What is a Serice Worker](whatPWA/what-is-a-service-worker.md)
+2. [What is a Service Worker](whatPWA/what-is-a-service-worker.md)
 3. [What is a Manifest](whatPWA/what-is-a-manifest.md)
 
 ## Quick Start Guides

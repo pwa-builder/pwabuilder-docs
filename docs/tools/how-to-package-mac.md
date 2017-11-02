@@ -14,7 +14,7 @@ At this time you can not build the MacOS app via the PWA Builder Web Site, so yo
 
 'pwabuilder https://btdj.azurewebsites.net/ -d C:\Projects -l debug -p mac'
 
-  Parameter |  Discription
+  Parameter |  Description
  --- | --- 
  *-d* | the directory you would like to generate the app
  *-l* | the log level of the CLI

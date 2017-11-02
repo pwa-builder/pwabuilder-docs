@@ -14,7 +14,7 @@ At this time you can not build the Windows 7 app via the PWA Builder Web Site, s
 
  `pwabuilder https://btdj.azurewebsites.net/ -d C:\Projects -l debug -p win32`. 
 
-  Parameter |  Discription
+  Parameter |  Description
  --- | --- 
  *-d* | the directory you would like to generate the app
  *-l* | the log level of the CLI
