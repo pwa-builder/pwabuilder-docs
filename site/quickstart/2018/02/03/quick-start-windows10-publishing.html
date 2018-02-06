@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Quick Start Windows 10 Publishing | PWABuilder Docs</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Quick Start Windows 10 Publishing" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Quick Start Windows 10 Publishing Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts. Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines. Self Publish through Windows Dev Center You can easily create a listing for your PWA within the Microsoft Store on Windows 10. Your PWA package can then be uploaded for users to discover Obtain a Windows Dev Account. The PWA builder team has a limited number of account tokens that can be used by web develper to cover the cost of a dev account with Microsoft for the beta. Reach out to jeffburt@microsoft.com or @boyofgreen on twitter for a code. Login to dev.windows.com and start a “new app” to reserve the name of your app. ** You must use the same name as the “name” or “short_name” on your W3C manifest.** The dev center will tell you if the name is not available. In the Windows 10 Dev center, find the “publisher name”, “Publisher Identity” and “Package Family Name” of your app. You’ll find it under ******* Go to preview.pwabuilder.com and enter your url. On step 3, choose “generate Appx” and enter the info the requested info from the dev center. Go back to the dev center and upload the Appx from pwabuilder . Publish via CLI Your PWA can be created and app listing generated for supported platforms (using the -p option, in this case windows10). Example: pwabuilder package C:\Projects\HotBeats -p windows10 -a -l debug" />
+<meta property="og:description" content="Quick Start Windows 10 Publishing Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts. Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines. Self Publish through Windows Dev Center You can easily create a listing for your PWA within the Microsoft Store on Windows 10. Your PWA package can then be uploaded for users to discover Obtain a Windows Dev Account. The PWA builder team has a limited number of account tokens that can be used by web develper to cover the cost of a dev account with Microsoft for the beta. Reach out to jeffburt@microsoft.com or @boyofgreen on twitter for a code. Login to dev.windows.com and start a “new app” to reserve the name of your app. ** You must use the same name as the “name” or “short_name” on your W3C manifest.** The dev center will tell you if the name is not available. In the Windows 10 Dev center, find the “publisher name”, “Publisher Identity” and “Package Family Name” of your app. You’ll find it under ******* Go to preview.pwabuilder.com and enter your url. On step 3, choose “generate Appx” and enter the info the requested info from the dev center. Go back to the dev center and upload the Appx from pwabuilder . Publish via CLI Your PWA can be created and app listing generated for supported platforms (using the -p option, in this case windows10). Example: pwabuilder package C:\Projects\HotBeats -p windows10 -a -l debug" />
+<link rel="canonical" href="/quickstart/2018/02/03/quick-start-windows10-publishing.html" />
+<meta property="og:url" content="/quickstart/2018/02/03/quick-start-windows10-publishing.html" />
+<meta property="og:site_name" content="PWABuilder Docs" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-02-03T20:07:25-06:00" />
+<script type="application/ld+json">
+{"description":"Quick Start Windows 10 Publishing Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts. Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines. Self Publish through Windows Dev Center You can easily create a listing for your PWA within the Microsoft Store on Windows 10. Your PWA package can then be uploaded for users to discover Obtain a Windows Dev Account. The PWA builder team has a limited number of account tokens that can be used by web develper to cover the cost of a dev account with Microsoft for the beta. Reach out to jeffburt@microsoft.com or @boyofgreen on twitter for a code. Login to dev.windows.com and start a “new app” to reserve the name of your app. ** You must use the same name as the “name” or “short_name” on your W3C manifest.** The dev center will tell you if the name is not available. In the Windows 10 Dev center, find the “publisher name”, “Publisher Identity” and “Package Family Name” of your app. You’ll find it under ******* Go to preview.pwabuilder.com and enter your url. On step 3, choose “generate Appx” and enter the info the requested info from the dev center. Go back to the dev center and upload the Appx from pwabuilder . Publish via CLI Your PWA can be created and app listing generated for supported platforms (using the -p option, in this case windows10). Example: pwabuilder package C:\\Projects\\HotBeats -p windows10 -a -l debug","@type":"BlogPosting","url":"/quickstart/2018/02/03/quick-start-windows10-publishing.html","headline":"Quick Start Windows 10 Publishing","dateModified":"2018-02-03T20:07:25-06:00","datePublished":"2018-02-03T20:07:25-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"/quickstart/2018/02/03/quick-start-windows10-publishing.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <meta name="description" content="All the tools you need to build and deploy your Progressive Web Apps.">
+
+  <meta name="application-name" content="Progressive Web Apps Builder">
+
+
+
+  <link href="/assets/manifoldjs-vendor.min.css" rel="stylesheet" />
+
+  <link href="/assets/manifoldjs-site.min.css" rel="stylesheet" />
+
+  <link href="/assets/custom.css" rel="stylesheet" />
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="PWABuilder Docs" />
+  
+</head>
+
+
+  <body>
+
+    <header class="pwa-header pure-g">
+  <div class="pwa-header-left pure-u pure-u-md-1-5">
+      <a href="/">
+          <img class="pwa-header-logo" src="/assets/images/logo.png" alt="PWA Builder logo">
+      </a>
+  </div>
+  <nav class="pwa-header-right pure-u pure-u-md-4-5">
+      <ul class="pwa-header-menu">
+          <li class="pwa-header-item">
+              <a class="pwa-header-link" href="https://www.pwabuilder.com">PWA Builder</a>
+          </li>
+          <li class="pwa-header-item">
+              <a class="pwa-header-link active" href="/">Documentation</a>
+          </li>
+          <li class="pwa-header-item">
+              <a class="pwa-header-link" href="http://appimagegenerator-pre.azurewebsites.net/">App Image Generator</a>
+          </li>
+          <li class="pwa-header-item">
+              <a class="pwa-header-link" href="https://github.com/pwa-builder" target="_blank">Github</a>
+          </li>
+      </ul>
+  </nav>
+</header>
+
+
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Quick Start Windows 10 Publishing</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-02-03T20:07:25-06:00" itemprop="datePublished">
+        
+        Feb 3, 2018
+      </time>
+      </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="quick-start-windows-10-publishing">Quick Start Windows 10 Publishing</h1>
+<p>Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts.</p>
+
+<p>Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines.</p>
+
+<h2 id="self-publish-through-windows-dev-center">Self Publish through Windows Dev Center</h2>
+<p>You can easily create a listing for your PWA within the Microsoft Store on Windows 10.  Your PWA package can then be uploaded for users to discover</p>
+
+<ol>
+  <li>
+    <p>Obtain a <a href="https://dev.windows.com">Windows Dev Account</a>.  The PWA builder team has a limited number of account tokens that can be used by web develper to cover the cost of a dev account with Microsoft for the beta.  Reach out to jeffburt@microsoft.com or @boyofgreen on twitter for a code.</p>
+  </li>
+  <li>
+    <p>Login to dev.windows.com and start a “new app” to reserve the name of your app.  ** You must use the same name as the “name” or “short_name” on your W3C manifest.** The dev center will tell you if the name is not available.</p>
+  </li>
+  <li>
+    <p>In the Windows 10 Dev center, find the “publisher name”, “Publisher Identity” and “Package Family Name” of your app. You’ll find it under <strong>**</strong><strong>**</strong><strong>**</strong>*</p>
+  </li>
+  <li>
+    <p>Go to preview.pwabuilder.com and enter your url.</p>
+  </li>
+  <li>
+    <p>On step 3, choose “generate Appx” and enter the info the requested info from the dev center.</p>
+  </li>
+  <li>
+    <p>Go back to the dev center and upload the Appx from pwabuilder .</p>
+  </li>
+</ol>
+
+<h2 id="publish-via-cli">Publish via CLI</h2>
+<p>Your PWA can be created and app listing generated for supported platforms (using the -p option, in this case windows10).</p>
+
+<p><strong>Example:</strong>
+<code class="highlighter-rouge">pwabuilder package C:\Projects\HotBeats -p windows10 -a -l debug</code></p>
+
+<p><img src="/assets/quickstart-pwa-cli-publish-windows10.png" alt="Service Worker Code" /></p>
+
+
+  </div>
+
+  
+
+  <a class="u-url" href="/quickstart/2018/02/03/quick-start-windows10-publishing.html" hidden></a>
+</article>
+
+      </div>
+    </main>
+
+    <footer class="pwa-footer pure-g">
+  <div class="pure-u-1-2 pure-u-md-1-5">
+      <a class="pwa-footer-action pwa-footer-action--block" href="@ViewBag.GenerateLink">Generate</a>
+      <a class="pwa-footer-action pwa-footer-action--block" href="https://github.com/pwa-builder/manifoldJS/wiki" target="_blank">Documentation</a>
+  </div>
+  <div class="pure-u-1-2 pure-u-md-1-5">
+      <a class="pwa-footer-action pwa-footer-action--block" href="/">App Image Generator</a>
+      <a class="pwa-footer-action pwa-footer-action--block" href="https://github.com/pwa-builder" target="_blank">Github</a>
+  </div>
+  <div class="pwa-footer-social pure-u-1 pure-u-md-3-5">
+      <a class="pwa-footer-logo_action" href="https://twitter.com/boyofgreen" target="_blank">
+          <img class="pwa-footer-logo" src="/assets/images/logo_twitter.svg">
+      </a>
+      <a class="pwa-footer-logo_action" href="https://github.com/pwa-builder" target="_blank">
+          <img class="pwa-footer-logo" src="/assets/images/logo_github.svg">
+      </a>
+      <a class="pwa-footer-logo_action" href="https://www.npmjs.com/package/manifoldjs" target="_blank">
+          <img class="pwa-footer-logo pwa-footer-logo--big" src="/assets/images/logo_npm.svg">
+      </a>
+      <a class="pwa-footer-logo_action" href="http://stackoverflow.com/questions/tagged/manifoldjs" target="_blank">
+          <img class="pwa-footer-logo pwa-footer-logo--small" src="/assets/images/logo_stackoverflow.svg">
+      </a>
+  </div>
+  <div class="pure-u-1 pwa-footer-copy center">
+    PWABuilder was founded by Microsoft as a community guided, open source project to help move PWA adoption forward.  <span class="divider">|</span> <a class="pwa-footer-action" href="@ViewBag.LicenseLink">License</a>
+  </div>
+</footer>
+
+  </body>
+
+</html>

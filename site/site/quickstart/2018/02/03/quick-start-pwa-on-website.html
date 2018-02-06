@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Quick Start PWA on Website | Your awesome title</title>
+<meta name="generator" content="Jekyll v3.7.2" />
+<meta property="og:title" content="Quick Start PWA on Website" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Quick Start PWA on Website This quick start walks you through the steps to create a Progressive Web App (PWA) from scratch using the pwabuilder.com builder site. Make sure your website meets the minimum requirements. The first step is to build the Manifest for your application using the pwabuilder.com web site. The builder will search in the home page of your site looking for information about the app in specific meta tags. For more information, read What is a Manifest. Provide a URL Open a browser and navigate to https://preview.pwabuilder.com Click on the Get Started button In the URL textbox, enter the URL of your site and click on Get Started again Generate Manifest The builder will search in the home page of your site looking for an existing manifest. If not, it will gather information about the app in specific meta tags or propose default values for the manifest properties. It will also show any warnings or suggestions to address potential issues in the collected metadata. Make sure you address any warnings before you move on. Note: If your site already has a manifest in place and you are comfortable with the current manifest data, you can skip this step and click on Next step at the right top of the wizard to jump directly to the Build Service Worker step. Add Images The builder site also checks whether the manifest has defined the expected icon sizes for the different platforms (Windows, Android, iOS) and helps to generate the missing sizes. You can also generate missing image sizes for other platforms using the PWA Image Generator. In our example, we don’t have any image defined in the manifest so we’ll proceed uploading an image with our app logo. To do this, click on the Upload an image… link at the left pane. Browse to the location of the image to upload and, if you want to generate the missing sizes, make sure the Generate missing images from this image checkbox is marked. Note: Currently, the Upload image option will only generate the required image sizes for Windows 10. Click Submit. In our example, the missing image sizes are automatically generated and added to the manifest. Download Manifest Once you are done with the updates to the manifest you can download the web app manifest here. Also, you can move on to build a Service Worker and/or Publish your PWA in the next steps. Service Workers During this step you will choose functionalities you want to add to your app. The builder will include code to use sample service workers implementing those features from a repository. Learn more about service workers here. By default, the builder includes the Offline page service worker to pull a file from your web server called “offline.html” and serve the file whenever a network connection cannot be made. Additionally, you can select the Offline copy of pages service worker to keep a cache of all visited pages and serve the stored version in case any fetch fails. Also, the builder can include both features into a combined service worker for a full offline experience. Select the functionalities you want to include in your application Download the service worker package including the code for your website and the service worker code The code for your website should be included in your HTML to register the service worker Upload the service worker code JS file to the web site Publishing Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts. Web This is still a web app, so step one is to include these new files into your web site. You can click the Download button of the Web section to get the files that you need to add to your site. Add and upload them to your website. Different browsers will detect your Progressive Web App in different ways, but the manifest and service workers are required for each of them. ○ The Web App Manifest is deployed in your HTML pages using a link tag in the head of your document: &lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot;&gt;. ○ Also, add and upload references images and service worker files to the root path of the site. Windows Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines. Your PWA can be created and app listing generated from the below one step publishing button. Click Publish 1-step button under the Windows panel Enter the user name or company name and a valid email address Click Submit. Android Publishing directly to the Android Play Store will be coming soon. Other You can now download polyfill packages to publish both Android and iOS. You’ll need Xcode to build and submit your package to the Store. Polyfills Given that not every platform or browser runs PWAs yet, the builder provides polyfills for platforms that lack support like iOS, Mac and Windows 7. In case of Android, PWAs are available through the browser; however, you can generate an Android polyfill app that can be also submitted to the Play store. Android In the Publish PWA step of the builder wizard, locate the Android section and click the Download button. The app package will be generated and downloaded to your local drive. Then, follow the instructions to publish your Android app. iOS In the Publish PWA step of the builder wizard, locate the iOS Polyfill section and click the Download button. The app package will be generated and downloaded to your local drive. Then, follow the instructions to publish your iOS app. Mac Not supported on the website. See “QuickStart PWA via CLI” Win7 Not supported on the website. See “QuickStart PWA via CLI”" />
+<meta property="og:description" content="Quick Start PWA on Website This quick start walks you through the steps to create a Progressive Web App (PWA) from scratch using the pwabuilder.com builder site. Make sure your website meets the minimum requirements. The first step is to build the Manifest for your application using the pwabuilder.com web site. The builder will search in the home page of your site looking for information about the app in specific meta tags. For more information, read What is a Manifest. Provide a URL Open a browser and navigate to https://preview.pwabuilder.com Click on the Get Started button In the URL textbox, enter the URL of your site and click on Get Started again Generate Manifest The builder will search in the home page of your site looking for an existing manifest. If not, it will gather information about the app in specific meta tags or propose default values for the manifest properties. It will also show any warnings or suggestions to address potential issues in the collected metadata. Make sure you address any warnings before you move on. Note: If your site already has a manifest in place and you are comfortable with the current manifest data, you can skip this step and click on Next step at the right top of the wizard to jump directly to the Build Service Worker step. Add Images The builder site also checks whether the manifest has defined the expected icon sizes for the different platforms (Windows, Android, iOS) and helps to generate the missing sizes. You can also generate missing image sizes for other platforms using the PWA Image Generator. In our example, we don’t have any image defined in the manifest so we’ll proceed uploading an image with our app logo. To do this, click on the Upload an image… link at the left pane. Browse to the location of the image to upload and, if you want to generate the missing sizes, make sure the Generate missing images from this image checkbox is marked. Note: Currently, the Upload image option will only generate the required image sizes for Windows 10. Click Submit. In our example, the missing image sizes are automatically generated and added to the manifest. Download Manifest Once you are done with the updates to the manifest you can download the web app manifest here. Also, you can move on to build a Service Worker and/or Publish your PWA in the next steps. Service Workers During this step you will choose functionalities you want to add to your app. The builder will include code to use sample service workers implementing those features from a repository. Learn more about service workers here. By default, the builder includes the Offline page service worker to pull a file from your web server called “offline.html” and serve the file whenever a network connection cannot be made. Additionally, you can select the Offline copy of pages service worker to keep a cache of all visited pages and serve the stored version in case any fetch fails. Also, the builder can include both features into a combined service worker for a full offline experience. Select the functionalities you want to include in your application Download the service worker package including the code for your website and the service worker code The code for your website should be included in your HTML to register the service worker Upload the service worker code JS file to the web site Publishing Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts. Web This is still a web app, so step one is to include these new files into your web site. You can click the Download button of the Web section to get the files that you need to add to your site. Add and upload them to your website. Different browsers will detect your Progressive Web App in different ways, but the manifest and service workers are required for each of them. ○ The Web App Manifest is deployed in your HTML pages using a link tag in the head of your document: &lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot;&gt;. ○ Also, add and upload references images and service worker files to the root path of the site. Windows Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines. Your PWA can be created and app listing generated from the below one step publishing button. Click Publish 1-step button under the Windows panel Enter the user name or company name and a valid email address Click Submit. Android Publishing directly to the Android Play Store will be coming soon. Other You can now download polyfill packages to publish both Android and iOS. You’ll need Xcode to build and submit your package to the Store. Polyfills Given that not every platform or browser runs PWAs yet, the builder provides polyfills for platforms that lack support like iOS, Mac and Windows 7. In case of Android, PWAs are available through the browser; however, you can generate an Android polyfill app that can be also submitted to the Play store. Android In the Publish PWA step of the builder wizard, locate the Android section and click the Download button. The app package will be generated and downloaded to your local drive. Then, follow the instructions to publish your Android app. iOS In the Publish PWA step of the builder wizard, locate the iOS Polyfill section and click the Download button. The app package will be generated and downloaded to your local drive. Then, follow the instructions to publish your iOS app. Mac Not supported on the website. See “QuickStart PWA via CLI” Win7 Not supported on the website. See “QuickStart PWA via CLI”" />
+<link rel="canonical" href="http://localhost:4000/quickstart/2018/02/03/quick-start-pwa-on-website.html" />
+<meta property="og:url" content="http://localhost:4000/quickstart/2018/02/03/quick-start-pwa-on-website.html" />
+<meta property="og:site_name" content="Your awesome title" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-02-03T20:07:25-06:00" />
+<script type="application/ld+json">
+{"description":"Quick Start PWA on Website This quick start walks you through the steps to create a Progressive Web App (PWA) from scratch using the pwabuilder.com builder site. Make sure your website meets the minimum requirements. The first step is to build the Manifest for your application using the pwabuilder.com web site. The builder will search in the home page of your site looking for information about the app in specific meta tags. For more information, read What is a Manifest. Provide a URL Open a browser and navigate to https://preview.pwabuilder.com Click on the Get Started button In the URL textbox, enter the URL of your site and click on Get Started again Generate Manifest The builder will search in the home page of your site looking for an existing manifest. If not, it will gather information about the app in specific meta tags or propose default values for the manifest properties. It will also show any warnings or suggestions to address potential issues in the collected metadata. Make sure you address any warnings before you move on. Note: If your site already has a manifest in place and you are comfortable with the current manifest data, you can skip this step and click on Next step at the right top of the wizard to jump directly to the Build Service Worker step. Add Images The builder site also checks whether the manifest has defined the expected icon sizes for the different platforms (Windows, Android, iOS) and helps to generate the missing sizes. You can also generate missing image sizes for other platforms using the PWA Image Generator. In our example, we don’t have any image defined in the manifest so we’ll proceed uploading an image with our app logo. To do this, click on the Upload an image… link at the left pane. Browse to the location of the image to upload and, if you want to generate the missing sizes, make sure the Generate missing images from this image checkbox is marked. Note: Currently, the Upload image option will only generate the required image sizes for Windows 10. Click Submit. In our example, the missing image sizes are automatically generated and added to the manifest. Download Manifest Once you are done with the updates to the manifest you can download the web app manifest here. Also, you can move on to build a Service Worker and/or Publish your PWA in the next steps. Service Workers During this step you will choose functionalities you want to add to your app. The builder will include code to use sample service workers implementing those features from a repository. Learn more about service workers here. By default, the builder includes the Offline page service worker to pull a file from your web server called “offline.html” and serve the file whenever a network connection cannot be made. Additionally, you can select the Offline copy of pages service worker to keep a cache of all visited pages and serve the stored version in case any fetch fails. Also, the builder can include both features into a combined service worker for a full offline experience. Select the functionalities you want to include in your application Download the service worker package including the code for your website and the service worker code The code for your website should be included in your HTML to register the service worker Upload the service worker code JS file to the web site Publishing Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts. Web This is still a web app, so step one is to include these new files into your web site. You can click the Download button of the Web section to get the files that you need to add to your site. Add and upload them to your website. Different browsers will detect your Progressive Web App in different ways, but the manifest and service workers are required for each of them. ○ The Web App Manifest is deployed in your HTML pages using a link tag in the head of your document: &lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot;&gt;. ○ Also, add and upload references images and service worker files to the root path of the site. Windows Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines. Your PWA can be created and app listing generated from the below one step publishing button. Click Publish 1-step button under the Windows panel Enter the user name or company name and a valid email address Click Submit. Android Publishing directly to the Android Play Store will be coming soon. Other You can now download polyfill packages to publish both Android and iOS. You’ll need Xcode to build and submit your package to the Store. Polyfills Given that not every platform or browser runs PWAs yet, the builder provides polyfills for platforms that lack support like iOS, Mac and Windows 7. In case of Android, PWAs are available through the browser; however, you can generate an Android polyfill app that can be also submitted to the Play store. Android In the Publish PWA step of the builder wizard, locate the Android section and click the Download button. The app package will be generated and downloaded to your local drive. Then, follow the instructions to publish your Android app. iOS In the Publish PWA step of the builder wizard, locate the iOS Polyfill section and click the Download button. The app package will be generated and downloaded to your local drive. Then, follow the instructions to publish your iOS app. Mac Not supported on the website. See “QuickStart PWA via CLI” Win7 Not supported on the website. See “QuickStart PWA via CLI”","@type":"BlogPosting","url":"http://localhost:4000/quickstart/2018/02/03/quick-start-pwa-on-website.html","headline":"Quick Start PWA on Website","dateModified":"2018-02-03T20:07:25-06:00","datePublished":"2018-02-03T20:07:25-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/quickstart/2018/02/03/quick-start-pwa-on-website.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <meta name="description" content="All the tools you need to build and deploy your Progressive Web Apps.">
+
+  <meta name="application-name" content="Progressive Web Apps Builder">
+
+
+
+  <link href="/assets/manifoldjs-vendor.min.css" rel="stylesheet" />
+
+  <link href="/assets/manifoldjs-site.min.css" rel="stylesheet" />
+
+  <link href="/assets/custom.css" rel="stylesheet" />
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" />
+  
+</head>
+
+
+  <body>
+
+    <header class="pwa-header pure-g">
+  <div class="pwa-header-left pure-u pure-u-md-1-5">
+      <a href="/">
+          <img class="pwa-header-logo" src="/assets/images/logo.png" alt="PWA Builder logo">
+      </a>
+  </div>
+  <nav class="pwa-header-right pure-u pure-u-md-4-5">
+      <ul class="pwa-header-menu">
+          <li class="pwa-header-item">
+              <a class="pwa-header-link" href="https://www.pwabuilder.com">PWA Builder</a>
+          </li>
+          <li class="pwa-header-item">
+              <a class="pwa-header-link active" href="/">Documentation</a>
+          </li>
+          <li class="pwa-header-item">
+              <a class="pwa-header-link" href="http://appimagegenerator-pre.azurewebsites.net/">App Image Generator</a>
+          </li>
+          <li class="pwa-header-item">
+              <a class="pwa-header-link" href="https://github.com/pwa-builder" target="_blank">Github</a>
+          </li>
+      </ul>
+  </nav>
+</header>
+
+
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Quick Start PWA on Website</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-02-03T20:07:25-06:00" itemprop="datePublished">
+        
+        Feb 3, 2018
+      </time>
+      </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="quick-start-pwa-on-website">Quick Start PWA on Website</h1>
+
+<p>This quick start walks you through the steps to create a Progressive Web App (PWA) from scratch using the <strong>pwabuilder.com</strong> builder site. Make sure your website meets the <a href="/what/is/a/pwa/2018/02/03/pwa-min-requirements.html">minimum requirements</a>.</p>
+
+<p>The first step is to build the Manifest for your application using the <strong>pwabuilder.com</strong> web site. The builder will search in the home page of your site looking for information about the app in specific meta tags. For more information, read <a href="/what/is/a/pwa/2018/02/03/what-is-a-manifest.html">What is a Manifest</a>.</p>
+
+<h3 id="provide-a-url">Provide a URL</h3>
+
+<ol>
+  <li>Open a browser and navigate to <a href="https://preview.pwabuilder.com">https://preview.pwabuilder.com</a></li>
+  <li>Click on the <strong>Get Started</strong> button</li>
+  <li>
+    <p>In the URL textbox, enter the URL of your site and click on <strong>Get Started</strong> again</p>
+
+    <p><img src="/assets/quickstart-pwa-website-provide-a-url.png" alt="Provide a URL" /></p>
+  </li>
+</ol>
+
+<h3 id="generate-manifest">Generate Manifest</h3>
+<p>The builder will search in the home page of your site looking for an existing manifest. If not, it will gather information about the app in specific meta tags or propose default values for the manifest properties. It will also show any warnings or suggestions to address potential issues in the collected metadata. Make sure you address any warnings before you move on.</p>
+
+<p><strong>Note:</strong> If your site already has a manifest in place and you are comfortable with the current manifest data, you can skip this step and click on <strong>Next step</strong> at the right top of the wizard to jump directly to the <strong>Build Service Worker</strong> step.</p>
+
+<p><img src="/assets/quickstart-pwa-website-generate-manifest.png" alt="Generate Manifest" /></p>
+
+<h4 id="add-images">Add Images</h4>
+<p>The builder site also checks whether the manifest has defined the expected icon sizes for the different platforms (Windows, Android, iOS) and helps to generate the missing sizes. You can also generate missing image sizes for other platforms using the <a href="http://appimagegenerator-pre.azurewebsites.net/">PWA Image Generator</a>.</p>
+
+<ol>
+  <li>
+    <p>In our example, we don’t have any image defined in the manifest so we’ll proceed uploading an image with our app logo. To do this, click on the <strong>Upload an image…</strong> link at the left pane. Browse to the location of the image to upload and, if you want to generate the missing sizes, make sure the <strong>Generate missing images from this image</strong> checkbox is marked.</p>
+
+    <p><strong>Note:</strong> Currently, the <strong>Upload image</strong> option will only generate the required image sizes for Windows 10.</p>
+
+    <p><img src="/assets/quickstart-pwa-website-upload-an-image.png" alt="Upload an Image" /></p>
+  </li>
+  <li>
+    <p>Click <strong>Submit</strong>. In our example, the missing image sizes are automatically generated and added to the manifest.</p>
+
+    <p><img src="/assets/quickstart-pwa-website-images-preview.png" alt="Images Preview" /></p>
+  </li>
+</ol>
+
+<h4 id="download-manifest">Download Manifest</h4>
+<p>Once you are done with the updates to the manifest you can download the web app manifest here. Also, you can move on to build a Service Worker and/or Publish your PWA in the next steps.</p>
+
+<h2 id="service-workers">Service Workers</h2>
+<p>During this step you will choose functionalities you want to add to your app. The builder will include code to use sample service workers implementing those features from a repository. Learn more about service workers <a href="/what/is/a/pwa/2018/02/03/what-is-a-service-worker.html">here</a>.</p>
+
+<p>By default, the builder includes the Offline page service worker to pull a file from your web server called “offline.html” and serve the file whenever a network connection cannot be made.
+Additionally, you can select the Offline copy of pages service worker to keep a cache of all visited pages and serve the stored version in case any fetch fails. Also, the builder can include both features into a combined service worker for a full offline experience.</p>
+
+<ol>
+  <li>
+    <p>Select the functionalities you want to include in your application</p>
+
+    <p><img src="/assets/quickstart-pwa-website-select-service-workers.png" alt="Select Service Workers" /></p>
+  </li>
+  <li>Download the service worker package including the code for your website and the service worker code</li>
+  <li>
+    <p>The code for your website should be included in your HTML to register the service worker</p>
+
+    <p><img src="/assets/quickstart-pwa-website-code-for-website.png" alt="Code for Website" /></p>
+  </li>
+  <li>
+    <p>Upload the service worker code JS file to the web site</p>
+
+    <p><img src="/assets/quickstart-pwa-website-service-worker-code.png" alt="Service Worker Code" /></p>
+  </li>
+</ol>
+
+<h2 id="publishing">Publishing</h2>
+<p>Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts.</p>
+
+<h3 id="web">Web</h3>
+<ol>
+  <li>This is still a web app, so step one is to include these new files into your web site. You can click the <strong>Download</strong> button of the Web section to get the files that you need to add to your site.</li>
+  <li>Add and upload them to your website. Different browsers will detect your Progressive Web App in different ways, but the <strong>manifest</strong> and <strong>service workers</strong> are required for each of them. 
+     ○ The Web App Manifest is deployed in your HTML pages using a <strong>link</strong> tag in the head of your document: <code class="highlighter-rouge">&lt;link rel="manifest" href="/manifest.json"&gt;</code>.
+     ○ Also, add and upload references <strong>images</strong> and <strong>service worker</strong> files to the root path of the site.</li>
+</ol>
+
+<h3 id="windows">Windows</h3>
+<p>Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines. Your PWA can be created and app listing generated from the below one step publishing button.</p>
+
+<ol>
+  <li>Click <strong>Publish 1-step</strong> button under the Windows panel</li>
+  <li>
+    <p>Enter the user name or company name and a valid email address</p>
+
+    <p><img src="/assets/quickstart-pwa-website-publish-package.png" alt="Publish Package" /></p>
+  </li>
+  <li>Click <strong>Submit</strong>.</li>
+</ol>
+
+<h3 id="android">Android</h3>
+<p>Publishing directly to the Android Play Store will be coming soon.</p>
+
+<h3 id="other">Other</h3>
+<p>You can now download polyfill packages to publish both Android and iOS. You’ll need Xcode to build and submit your package to the Store.</p>
+
+<p><img src="/assets/quickstart-pwa-website-platforms.png" alt="Platforms" /></p>
+
+<h2 id="polyfills">Polyfills</h2>
+<p>Given that not every platform or browser runs PWAs yet, the builder provides polyfills for platforms that lack support like <a href="/jekyll/update/2018/02/03/how-to-package-ios.html">iOS</a>, <a href="/jekyll/update/2018/02/03/how-to-package-mac.html">Mac</a> and <a href="/jekyll/update/2018/02/03/how-to-package-windows7.html">Windows 7</a>.
+In case of Android, PWAs are available through the browser; however, you can generate an <a href="/jekyll/update/2018/02/03/how-to-package-android.html">Android</a> polyfill app that can be also submitted to the Play store.</p>
+
+<h3 id="android-1">Android</h3>
+<ol>
+  <li>In the <strong>Publish PWA</strong> step of the builder wizard, locate the <strong>Android</strong> section and click the <strong>Download</strong> button. The app package will be generated and downloaded to your local drive.</li>
+</ol>
+
+<p><img src="/assets/quickstart-pwa-website-android-polyfill.png" alt="Android Polyfill" /></p>
+
+<ol>
+  <li>Then, follow the <a href="/jekyll/update/2018/02/03/how-to-package-android.html">instructions</a> to publish your Android app.</li>
+</ol>
+
+<h3 id="ios">iOS</h3>
+<ol>
+  <li>In the <strong>Publish PWA</strong> step of the builder wizard, locate the <strong>iOS Polyfill</strong> section and click the <strong>Download</strong> button. The app package will be generated and downloaded to your local drive.</li>
+</ol>
+
+<p><img src="/assets/quickstart-pwa-website-ios-polyfill.png" alt="iOS Polyfill" /></p>
+
+<ol>
+  <li>Then, follow the <a href="/jekyll/update/2018/02/03/how-to-package-ios.html">instructions</a> to publish your iOS app.</li>
+</ol>
+
+<h3 id="mac">Mac</h3>
+<p>Not supported on the website. See “QuickStart PWA via CLI”</p>
+
+<h3 id="win7">Win7</h3>
+<p>Not supported on the website. See “QuickStart PWA via CLI”</p>
+
+  </div>
+
+  
+
+  <a class="u-url" href="/quickstart/2018/02/03/quick-start-pwa-on-website.html" hidden></a>
+</article>
+
+      </div>
+    </main>
+
+    <footer class="pwa-footer pure-g">
+  <div class="pure-u-1-2 pure-u-md-1-5">
+      <a class="pwa-footer-action pwa-footer-action--block" href="@ViewBag.GenerateLink">Generate</a>
+      <a class="pwa-footer-action pwa-footer-action--block" href="https://github.com/pwa-builder/manifoldJS/wiki" target="_blank">Documentation</a>
+  </div>
+  <div class="pure-u-1-2 pure-u-md-1-5">
+      <a class="pwa-footer-action pwa-footer-action--block" href="/">App Image Generator</a>
+      <a class="pwa-footer-action pwa-footer-action--block" href="https://github.com/pwa-builder" target="_blank">Github</a>
+  </div>
+  <div class="pwa-footer-social pure-u-1 pure-u-md-3-5">
+      <a class="pwa-footer-logo_action" href="https://twitter.com/boyofgreen" target="_blank">
+          <img class="pwa-footer-logo" src="/assets/images/logo_twitter.svg">
+      </a>
+      <a class="pwa-footer-logo_action" href="https://github.com/pwa-builder" target="_blank">
+          <img class="pwa-footer-logo" src="/assets/images/logo_github.svg">
+      </a>
+      <a class="pwa-footer-logo_action" href="https://www.npmjs.com/package/manifoldjs" target="_blank">
+          <img class="pwa-footer-logo pwa-footer-logo--big" src="/assets/images/logo_npm.svg">
+      </a>
+      <a class="pwa-footer-logo_action" href="http://stackoverflow.com/questions/tagged/manifoldjs" target="_blank">
+          <img class="pwa-footer-logo pwa-footer-logo--small" src="/assets/images/logo_stackoverflow.svg">
+      </a>
+  </div>
+  <div class="pure-u-1 pwa-footer-copy center">
+    PWABuilder was founded by Microsoft as a community guided, open source project to help move PWA adoption forward.  <span class="divider">|</span> <a class="pwa-footer-action" href="@ViewBag.LicenseLink">License</a>
+  </div>
+</footer>
+
+  </body>
+
+</html>
