@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-02-06T12:07:25-06:00</updated><id>/</id><title type="html">PWABuilder Docs</title><subtitle>Documentation for PWABuilder.com</subtitle><entry><title type="html">How to Package Windows7</title><link href="/jekyll/update/2018/02/03/how-to-package-windows7.html" rel="alternate" type="text/html" title="How to Package Windows7" /><published>2018-02-03T20:07:25-06:00</published><updated>2018-02-03T20:07:25-06:00</updated><id>/jekyll/update/2018/02/03/how-to-package-windows7</id><content type="html" xml:base="/jekyll/update/2018/02/03/how-to-package-windows7.html">&lt;h1 id=&quot;how-to-package-windows7&quot;&gt;How to Package Windows7&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-02-14T11:30:04-06:00</updated><id>/</id><title type="html">PWABuilder Docs</title><subtitle>Documentation for PWABuilder.com</subtitle><entry><title type="html">Quick Start Microsoft Store Dev Center Submission</title><link href="/quickstart/2018/02/13/devcenter2.html" rel="alternate" type="text/html" title="Quick Start Microsoft Store Dev Center Submission" /><published>2018-02-13T12:53:25-06:00</published><updated>2018-02-13T12:53:25-06:00</updated><id>/quickstart/2018/02/13/devcenter2</id><content type="html" xml:base="/quickstart/2018/02/13/devcenter2.html">&lt;h2 id=&quot;generate-the-appx&quot;&gt;Generate the Appx&lt;/h2&gt;
+
+&lt;p&gt;Follow the guite provided for building a WIn10 Appx for submisison:  &lt;a href=&quot;/quickstart/2018/02/03/quick-start-windows10-publishing.html&quot;&gt;Windows10 publishing&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;start-a-new-submission&quot;&gt;Start a New Submission&lt;/h2&gt;
+
+&lt;p&gt;In the dev center, under your new app, start a new submission:
+&lt;img src=&quot;/assets/dc-start-submission.png&quot; alt=&quot;new submission button&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;build-out-your-app-store-data&quot;&gt;Build out your app Store Data&lt;/h2&gt;
+
+&lt;p&gt;You’ll be presented with a list of options to configure your app in the store.  Walk through each selection, and when it’s complete the checkmark will show green.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/dc-complete.png&quot; alt=&quot;complete check mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The sections are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pricing and availability: You can choose to make your app free (default) for to charge for your app.  You can also configure which regions your app is available in.  You also set when your listing will appear in the store.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Properties: Choose the category or categories that your app where your app should be listed.  Since your PWA can run on all Windows 10 devices.  You can also choose state if your app should be run in both 2d and 3d environments.  You can also specify system requirements and declarations on this page.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Age Ratings:  Follow the wizard to determine the age rating placed on your store listing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Packages: this is where you upload the appx you generated with PWABuilder.  You can also determine what types of devices are supported by your app.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Store Listing:  this is where you create the page that will be listed in the Microsoft Store.  Update descriptions, add screenshots, and list app features.  You can also create listings in multiple languages to better suit each region (optional).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Notes for Certification:  This should be things like a test account (if you have a login, especially if it is a paid account). and data to help the tester discover the feature you have listed in the store listing page.  The more info here, the quicker your PWA is listed.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;wait-for-listing&quot;&gt;Wait for Listing&lt;/h2&gt;
+
+&lt;p&gt;Your PWA will be reviewed to make sure it doesn’t volate any store policies, then listed.  If you run into any problem, reach out to the support at &lt;a href=&quot;https://developer.microsoft.com/en-us/windows/support&quot;&gt;https://developer.microsoft.com/en-us/windows/support&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Generate the Appx Follow the guite provided for building a WIn10 Appx for submisison: Windows10 publishing Start a New Submission In the dev center, under your new app, start a new submission: Build out your app Store Data You’ll be presented with a list of options to configure your app in the store. Walk through each selection, and when it’s complete the checkmark will show green. The sections are: Pricing and availability: You can choose to make your app free (default) for to charge for your app. You can also configure which regions your app is available in. You also set when your listing will appear in the store. Properties: Choose the category or categories that your app where your app should be listed. Since your PWA can run on all Windows 10 devices. You can also choose state if your app should be run in both 2d and 3d environments. You can also specify system requirements and declarations on this page. Age Ratings: Follow the wizard to determine the age rating placed on your store listing. Packages: this is where you upload the appx you generated with PWABuilder. You can also determine what types of devices are supported by your app. Store Listing: this is where you create the page that will be listed in the Microsoft Store. Update descriptions, add screenshots, and list app features. You can also create listings in multiple languages to better suit each region (optional). Notes for Certification: This should be things like a test account (if you have a login, especially if it is a paid account). and data to help the tester discover the feature you have listed in the store listing page. The more info here, the quicker your PWA is listed. Wait for Listing Your PWA will be reviewed to make sure it doesn’t volate any store policies, then listed. If you run into any problem, reach out to the support at https://developer.microsoft.com/en-us/windows/support</summary></entry><entry><title type="html">How to Package Windows7</title><link href="/jekyll/update/2018/02/03/how-to-package-windows7.html" rel="alternate" type="text/html" title="How to Package Windows7" /><published>2018-02-03T20:07:25-06:00</published><updated>2018-02-03T20:07:25-06:00</updated><id>/jekyll/update/2018/02/03/how-to-package-windows7</id><content type="html" xml:base="/jekyll/update/2018/02/03/how-to-package-windows7.html">&lt;h1 id=&quot;how-to-package-windows7&quot;&gt;How to Package Windows7&lt;/h1&gt;
 
 &lt;p&gt;At this time you can not build the Windows 7 app via the PWA Builder Web Site, so you’ll need to build this app via the CLI tool.Windows 7 apps are supported in the &lt;a href=&quot;https://www.npmjs.com/package/pwabuilder-win32&quot;&gt;Win32 platform module&lt;/a&gt; for pwabuilder.&lt;/p&gt;
 
@@ -537,58 +577,4 @@ In case of Android, PWAs are available through the browser; however, you can gen
 
 &lt;ol&gt;
   &lt;li&gt;Follow the &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-windows7.html&quot;&gt;instructions&lt;/a&gt; to publish your Windows 7 app.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Quick Start Polyfills Given that not every platform or browser runs PWAs yet, the builder provides polyfills for platforms that lack support like iOS, Mac and Windows 7. In case of Android, PWAs are available through the browser; however, you can generate an Android polyfill app that can be also submitted to the Play store. Android Follow the Quick Start PWA on Web o the Quick Start PWA using CLI tools to generate the polyfills for Android. Then, follow the instructions to publish your Android app. iOS Follow the Quick Start PWA on Web o the Quick Start PWA using CLI tools to generate the polyfills for iOS. Then, follow the instructions to publish your iOS app. MacOS Follow the instructions to publish your MacOS app. Windows 7 Follow the instructions to publish your Windows 7 app.</summary></entry><entry><title type="html">Benefits of PWA on Windows 10s</title><link href="/benefits/2018/02/03/benefits-windows-10.html" rel="alternate" type="text/html" title="Benefits of PWA on Windows 10s" /><published>2018-02-03T20:07:25-06:00</published><updated>2018-02-03T20:07:25-06:00</updated><id>/benefits/2018/02/03/benefits-windows-10</id><content type="html" xml:base="/benefits/2018/02/03/benefits-windows-10.html">&lt;h2 id=&quot;benefits-of-pwa-on-windows-10&quot;&gt;Benefits of PWA on Windows 10&lt;/h2&gt;
-
-&lt;p&gt;Hosted Web Apps have some key user experience and discoverability advantages over remaining in the browser. Depending on your app’s customers and scenarios, you should review this list of benefits and determine whether your app is best delivered in the browser, as a hosted web app, or both.&lt;/p&gt;
-
-&lt;h3 id=&quot;easier-app-management&quot;&gt;Easier app management&lt;/h3&gt;
-
-&lt;p&gt;As previously mentioned, a few weeks ago Microsoft announced a new version of Intune directed towards EDU to help teachers and schools better manager devices. By moving your web app to a HWA/PWA, it allows teachers and administrators to prep students devices with your app along side of the other store apps they use.&lt;/p&gt;
-
-&lt;h3 id=&quot;user-notifications&quot;&gt;User notifications&lt;/h3&gt;
-
-&lt;p&gt;You may already be using web notifications for re-engaging your users. These notifications will appear in the action center, where users are accustomed to find them. With a small amount of code added to your app, you can send push notifications or use the notification gateway to send toast notifications or Tile updates even when your app isn’t running.&lt;/p&gt;
-
-&lt;h3 id=&quot;store-listing&quot;&gt;Store listing&lt;/h3&gt;
-
-&lt;p&gt;Hosted Web Apps get a listing in the Windows Store just like any application. When a user goes to the Windows Store to find education apps, your app will appear alongside the others and will participate in other store discovery mechanisms such as “recommended apps”.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/jig-2-1024x640.png&quot; alt=&quot;jigspace hosted web app&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Hosted Web Apps (and, in the future, Progressive Web Apps) can be listed in the Windows 10 Store for better discoverability and manageability.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The store also provides you with additional benefits such as usage reports and performance data. You also receive ratings and reviews, which gives you a way to get feedback from your users, and respond to that feedback in ways we just don’t have on the web today.&lt;/p&gt;
-
-&lt;h3 id=&quot;more-surfaces-for-discovery&quot;&gt;More surfaces for discovery&lt;/h3&gt;
-
-&lt;p&gt;In Windows 10 HWA/PWAs will appear wherever users expect to find apps. This includes discoverability in areas like “related apps” in the store, Cortana search, the start menu and even installs from within the bing.com search listing.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/jig-3-1024x640.png&quot; alt=&quot;bing listing of pwa&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Web apps listed in the Windows Store are featured in related Bing search results&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;integration-with-the-host-operating-system&quot;&gt;Integration with the host operating system&lt;/h3&gt;
-
-&lt;p&gt;HWA / PWA appear to a user as any other app. This means that a user and easily install and uninstall the apps. It means that the web app will be integrated into the settings panel (for example, with notifications).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/jig-4.png&quot; alt=&quot;uninstall a pwa&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Web apps are managed just like native apps, including all the relevant contextual controls and management options.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;These apps work as stand-alone apps, so they have their own tile, their own task bar menus and even appear as apps within the task manager.&lt;/p&gt;
-
-&lt;h3 id=&quot;access-to-expanded-resources&quot;&gt;Access to expanded resources&lt;/h3&gt;
-
-&lt;p&gt;When your web app runs as a HWA / PWA is has more access to resource. This means data caps on storage like IndexedDB and local storage are removed. It also means your app will have a dedicated cache that will never be deprioritized by another app.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/jig-5.png&quot; alt=&quot;jig space pwa app&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://jig.space/&quot;&gt;JigSpace&lt;/a&gt; provides interactive guidance for complex objects like this “jig” of the mars rover.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;api-access-for-expanded-functionality&quot;&gt;API access for expanded functionality&lt;/h3&gt;
-
-&lt;p&gt;HWA / PWA apps have access to the &lt;a href=&quot;https://docs.microsoft.com/en-us/uwp/api/&quot;&gt;Windows Store App APIs&lt;/a&gt; through JavaScript. This allows you to take advantage of features like BTLE, USB access or access to the user’s calendar or contacts with appropriate permission controls.&lt;/p&gt;</content><author><name></name></author><summary type="html">Benefits of PWA on Windows 10 Hosted Web Apps have some key user experience and discoverability advantages over remaining in the browser. Depending on your app’s customers and scenarios, you should review this list of benefits and determine whether your app is best delivered in the browser, as a hosted web app, or both. Easier app management As previously mentioned, a few weeks ago Microsoft announced a new version of Intune directed towards EDU to help teachers and schools better manager devices. By moving your web app to a HWA/PWA, it allows teachers and administrators to prep students devices with your app along side of the other store apps they use. User notifications You may already be using web notifications for re-engaging your users. These notifications will appear in the action center, where users are accustomed to find them. With a small amount of code added to your app, you can send push notifications or use the notification gateway to send toast notifications or Tile updates even when your app isn’t running. Store listing Hosted Web Apps get a listing in the Windows Store just like any application. When a user goes to the Windows Store to find education apps, your app will appear alongside the others and will participate in other store discovery mechanisms such as “recommended apps”. Hosted Web Apps (and, in the future, Progressive Web Apps) can be listed in the Windows 10 Store for better discoverability and manageability. The store also provides you with additional benefits such as usage reports and performance data. You also receive ratings and reviews, which gives you a way to get feedback from your users, and respond to that feedback in ways we just don’t have on the web today. More surfaces for discovery In Windows 10 HWA/PWAs will appear wherever users expect to find apps. This includes discoverability in areas like “related apps” in the store, Cortana search, the start menu and even installs from within the bing.com search listing. Web apps listed in the Windows Store are featured in related Bing search results Integration with the host operating system HWA / PWA appear to a user as any other app. This means that a user and easily install and uninstall the apps. It means that the web app will be integrated into the settings panel (for example, with notifications). Web apps are managed just like native apps, including all the relevant contextual controls and management options. These apps work as stand-alone apps, so they have their own tile, their own task bar menus and even appear as apps within the task manager. Access to expanded resources When your web app runs as a HWA / PWA is has more access to resource. This means data caps on storage like IndexedDB and local storage are removed. It also means your app will have a dedicated cache that will never be deprioritized by another app. JigSpace provides interactive guidance for complex objects like this “jig” of the mars rover. API access for expanded functionality HWA / PWA apps have access to the Windows Store App APIs through JavaScript. This allows you to take advantage of features like BTLE, USB access or access to the user’s calendar or contacts with appropriate permission controls.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Quick Start Polyfills Given that not every platform or browser runs PWAs yet, the builder provides polyfills for platforms that lack support like iOS, Mac and Windows 7. In case of Android, PWAs are available through the browser; however, you can generate an Android polyfill app that can be also submitted to the Play store. Android Follow the Quick Start PWA on Web o the Quick Start PWA using CLI tools to generate the polyfills for Android. Then, follow the instructions to publish your Android app. iOS Follow the Quick Start PWA on Web o the Quick Start PWA using CLI tools to generate the polyfills for iOS. Then, follow the instructions to publish your iOS app. MacOS Follow the instructions to publish your MacOS app. Windows 7 Follow the instructions to publish your Windows 7 app.</summary></entry></feed>
