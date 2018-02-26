@@ -17,13 +17,15 @@ You can easily create a listing for your PWA within the Microsoft Store on Windo
 
 2. Login to dev.windows.com and start a "new app" to reserve the name of your app.  ** You must use the same name as the "name" or "short_name" on your W3C manifest.** The dev center will tell you if the name is not available.
 
-3. In the Windows 10 Dev center, find the "publisher name", "Publisher Identity" and "Package Family Name" of your app. You'll find it under *******************
+3. In the Windows 10 Dev center, find the "publisher dispaly name", "Publisher Identity" and "Package Indentity Name" of your app. You'll find it under App Management > App Identity
 
 4. Go to preview.pwabuilder.com and enter your url. 
 
 5. On step 3, choose "generate Appx" and enter the info the requested info from the dev center.
 
-6. Go back to the dev center and upload the Appx from pwabuilder .
+6. Find appx named "windows.appx" in a new directory named "packages" in \PWA\Store packages\windows10
+
+7. Go back to the dev center and upload the Appx from pwabuilder .
 
 ## Publish via CLI
 Your PWA can be created and app listing generated for supported platforms (using the -p option, in this case windows10).
