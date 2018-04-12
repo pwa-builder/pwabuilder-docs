@@ -13,7 +13,7 @@ Windows 10 PWA support is still in Beta, so some features like service workers w
 ## Self Publish through Windows Dev Center
 You can easily create a listing for your PWA within the Microsoft Store on Windows 10.  Your PWA package can then be uploaded for users to discover
 
-1. Obtain a [Windows Dev Account](https://dev.windows.com).  The PWA builder team has a limited number of account tokens that can be used by web develper to cover the cost of a dev account with Microsoft for the beta.  Reach out to jeffburt@microsoft.com or @boyofgreen on twitter for a code.
+1. Obtain a [Windows Dev Account](https://dev.windows.com).  The PWA builder team has a limited number of account tokens that can be used by web developer to cover the cost of a dev account with Microsoft for the beta.  Reach out to jeffburt@microsoft.com or @boyofgreen on twitter for a code.
 
 2. Login to dev.windows.com and start a "new app" to reserve the name of your app.  ** You must use the same name as the "name" or "short_name" on your W3C manifest.** The dev center will tell you if the name is not available.
 
