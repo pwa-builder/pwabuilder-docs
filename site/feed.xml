@@ -239,7 +239,7 @@
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;Obtain a &lt;a href=&quot;https://dev.windows.com&quot;&gt;Windows Dev Account&lt;/a&gt;.  The PWA builder team has a limited number of account tokens that can be used by web develper to cover the cost of a dev account with Microsoft for the beta.  Reach out to jeffburt@microsoft.com or @boyofgreen on twitter for a code.&lt;/p&gt;
+    &lt;p&gt;Obtain a &lt;a href=&quot;https://dev.windows.com&quot;&gt;Windows Dev Account&lt;/a&gt;.  The PWA builder team has a limited number of account tokens that can be used by web developer to cover the cost of a dev account with Microsoft for the beta.  Reach out to jeffburt@microsoft.com or @boyofgreen on twitter for a code.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Login to dev.windows.com and start a “new app” to reserve the name of your app.  ** You must use the same name as the “name” or “short_name” on your W3C manifest.** The dev center will tell you if the name is not available.&lt;/p&gt;
