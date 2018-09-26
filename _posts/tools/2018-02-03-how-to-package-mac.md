@@ -13,7 +13,7 @@ At this time you cannot build the MacOS app via the PWA Builder website, so you'
 
 `npm install -g pwabuilder`
 
-3. Then, use pwabuilder to generate the polyfills: 
+2. Then, use pwabuilder to generate the polyfills: 
 
 'pwabuilder https://btdj.azurewebsites.net/ -d C:\Projects -l debug -p MacOS'
 
