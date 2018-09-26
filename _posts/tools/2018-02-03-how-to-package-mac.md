@@ -5,7 +5,7 @@ date:   2018-02-03 18:07:25 -0800
 categories: jekyll update
 ---
 
-At this time you can not build the MacOS app via the PWA Builder Web Site, so you'll need to build this app via the CLI tool. MacOS is supported in the [macOS platform module](https://www.npmjs.com/package/pwabuilder-macos) for pwabuilder.
+At this time you cannot build the MacOS app via the PWA Builder website, so you'll need to build this app via the CLI tool. MacOS is supported in the [macOS platform module](https://www.npmjs.com/package/pwabuilder-macos) for pwabuilder.
 
 # How to Package MacOS using CLI Tools
 
