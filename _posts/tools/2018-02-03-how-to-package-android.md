@@ -18,7 +18,7 @@ categories: jekyll update
 
     2. [Download](http://developer.android.com/sdk/installing/index.html?pkg=studio) and install Android Studio and the Android SDK
 
-    3. Open Android Studio and select the **Import project** option. Select the folder **projects/Polyfills/cordova/platforms/android** and click **OK**.
+    3. Open Android Studio and select the **Import project** option. Select the folder **projects/Polyfills/android/source** and click **OK**.
 
         **Note:** The version of Gradle installed by Android studio might not be compatible with the project's Gradle configuration. If that is the case, Android Studio will show an error and provide an option to fix/upgrade the project.
 
@@ -32,7 +32,7 @@ categories: jekyll update
 
     1. Select the build variant (debug|release) from the **Build Variants** window
    
-    2. In Android Studio, select **Build > Build APK** in the menu bar. The APKs are saved in **projects/Polyfills/cordova/platforms/android/build/outputs/apk/**
+    2. In Android Studio, select **Build > Build APK** in the menu bar. The APKs are saved in **projects/Polyfills/android/build/outputs/apk/**
 
 
 		**Note:** Before you can generate a release version of your app for public distribution, you must [sign your APK](https://developer.android.com/tools/publishing/app-signing.html)
