@@ -5,17 +5,13 @@ date:   2018-02-03 18:07:25 -0800
 categories: jekyll update
 ---
 
-  Now, you can package your app using PWA Builder online tool, or you can keep using the PWA Builder CLI Tools. MacOS is supported in the [macOS platform module](https://www.npmjs.com/package/pwabuilder-mac) for pwabuilder.
+  Now, you can package your app using PWA Builder online tool, or you can keep using the PWA Builder CLI Tools. MacOS is supported in the [macOS platform module](https://www.npmjs.com/package/pwabuilder-macos) for pwabuilder.
 
 # How to Package MacOS using CLI Tools
 
 1. Make sure **pwabuilder** installed. If not, install using: 
 
 `npm install -g pwabuilder`
-
-2. Add **MacOS platform** by:
-
- 'pwabuilder platform add MacOS pwabuilder-macos'
 
 3. Then, use pwabuilder to generate the polyfills: 
 
