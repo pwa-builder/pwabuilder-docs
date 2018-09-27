@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-02-26T17:43:46-06:00</updated><id>/</id><title type="html">PWABuilder Docs</title><subtitle>Documentation for PWABuilder.com</subtitle><entry><title type="html">Quick Start Microsoft Store Dev Center Submission</title><link href="/quickstart/2018/02/13/devcenter2.html" rel="alternate" type="text/html" title="Quick Start Microsoft Store Dev Center Submission" /><published>2018-02-13T12:53:25-06:00</published><updated>2018-02-13T12:53:25-06:00</updated><id>/quickstart/2018/02/13/devcenter2</id><content type="html" xml:base="/quickstart/2018/02/13/devcenter2.html">&lt;h2 id=&quot;generate-the-appx&quot;&gt;Generate the Appx&lt;/h2&gt;
+
+&lt;p&gt;Follow the guite provided for building a WIn10 Appx for submisison:  &lt;a href=&quot;/quickstart/2018/02/03/quick-start-windows10-publishing.html&quot;&gt;Windows10 publishing&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;start-a-new-submission&quot;&gt;Start a New Submission&lt;/h2&gt;
+
+&lt;p&gt;In the dev center, under your new app, start a new submission:
+&lt;img src=&quot;/assets/dc-start-submission.png&quot; alt=&quot;new submission button&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;build-out-your-app-store-data&quot;&gt;Build out your app Store Data&lt;/h2&gt;
+
+&lt;p&gt;You’ll be presented with a list of options to configure your app in the store.  Walk through each selection, and when it’s complete the checkmark will show green.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/dc-complete.png&quot; alt=&quot;complete check mark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The sections are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pricing and availability: You can choose to make your app free (default) for to charge for your app.  You can also configure which regions your app is available in.  You also set when your listing will appear in the store.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Properties: Choose the category or categories that your app where your app should be listed.  Since your PWA can run on all Windows 10 devices.  You can also choose state if your app should be run in both 2d and 3d environments.  You can also specify system requirements and declarations on this page.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Age Ratings:  Follow the wizard to determine the age rating placed on your store listing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Packages: this is where you upload the appx you generated with PWABuilder.  You can also determine what types of devices are supported by your app.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Store Listing:  this is where you create the page that will be listed in the Microsoft Store.  Update descriptions, add screenshots, and list app features.  You can also create listings in multiple languages to better suit each region (optional).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Notes for Certification:  This should be things like a test account (if you have a login, especially if it is a paid account). and data to help the tester discover the feature you have listed in the store listing page.  The more info here, the quicker your PWA is listed.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;wait-for-listing&quot;&gt;Wait for Listing&lt;/h2&gt;
+
+&lt;p&gt;Your PWA will be reviewed to make sure it doesn’t volate any store policies, then listed.  If you run into any problem, reach out to the support at &lt;a href=&quot;https://developer.microsoft.com/en-us/windows/support&quot;&gt;https://developer.microsoft.com/en-us/windows/support&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Generate the Appx Follow the guite provided for building a WIn10 Appx for submisison: Windows10 publishing Start a New Submission In the dev center, under your new app, start a new submission: Build out your app Store Data You’ll be presented with a list of options to configure your app in the store. Walk through each selection, and when it’s complete the checkmark will show green. The sections are: Pricing and availability: You can choose to make your app free (default) for to charge for your app. You can also configure which regions your app is available in. You also set when your listing will appear in the store. Properties: Choose the category or categories that your app where your app should be listed. Since your PWA can run on all Windows 10 devices. You can also choose state if your app should be run in both 2d and 3d environments. You can also specify system requirements and declarations on this page. Age Ratings: Follow the wizard to determine the age rating placed on your store listing. Packages: this is where you upload the appx you generated with PWABuilder. You can also determine what types of devices are supported by your app. Store Listing: this is where you create the page that will be listed in the Microsoft Store. Update descriptions, add screenshots, and list app features. You can also create listings in multiple languages to better suit each region (optional). Notes for Certification: This should be things like a test account (if you have a login, especially if it is a paid account). and data to help the tester discover the feature you have listed in the store listing page. The more info here, the quicker your PWA is listed. Wait for Listing Your PWA will be reviewed to make sure it doesn’t volate any store policies, then listed. If you run into any problem, reach out to the support at https://developer.microsoft.com/en-us/windows/support</summary></entry><entry><title type="html">How to Package Windows7</title><link href="/jekyll/update/2018/02/03/how-to-package-windows7.html" rel="alternate" type="text/html" title="How to Package Windows7" /><published>2018-02-03T20:07:25-06:00</published><updated>2018-02-03T20:07:25-06:00</updated><id>/jekyll/update/2018/02/03/how-to-package-windows7</id><content type="html" xml:base="/jekyll/update/2018/02/03/how-to-package-windows7.html">&lt;h1 id=&quot;how-to-package-windows7&quot;&gt;How to Package Windows7&lt;/h1&gt;
+
+&lt;p&gt;At this time you can not build the Windows 7 app via the PWA Builder Web Site, so you’ll need to build this app via the CLI tool.Windows 7 apps are supported in the &lt;a href=&quot;https://www.npmjs.com/package/pwabuilder-win32&quot;&gt;Win32 platform module&lt;/a&gt; for pwabuilder.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Make sure &lt;strong&gt;pwabuilder&lt;/strong&gt; installed. If not, install using:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;npm install -g pwabuilder&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Add &lt;strong&gt;win32 platform&lt;/strong&gt; by:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pwabuilder platform add win32 pwabuilder-win32&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Then, use pwabuilder to generate the polyfills:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pwabuilder https://btdj.azurewebsites.net/ -d C:\Projects -l debug -p win32&lt;/code&gt;.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Parameter&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;-d&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;the directory you would like to generate the app&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;-l&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;the log level of the CLI&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;-p&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;the platforms to build&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><summary type="html">How to Package Windows7 At this time you can not build the Windows 7 app via the PWA Builder Web Site, so you’ll need to build this app via the CLI tool.Windows 7 apps are supported in the Win32 platform module for pwabuilder. Make sure pwabuilder installed. If not, install using: npm install -g pwabuilder Add win32 platform by: pwabuilder platform add win32 pwabuilder-win32 Then, use pwabuilder to generate the polyfills: pwabuilder https://btdj.azurewebsites.net/ -d C:\Projects -l debug -p win32. Parameter Description -d the directory you would like to generate the app -l the log level of the CLI -p the platforms to build</summary></entry><entry><title type="html">How to Package MacOS</title><link href="/jekyll/update/2018/02/03/how-to-package-mac.html" rel="alternate" type="text/html" title="How to Package MacOS" /><published>2018-02-03T20:07:25-06:00</published><updated>2018-02-03T20:07:25-06:00</updated><id>/jekyll/update/2018/02/03/how-to-package-mac</id><content type="html" xml:base="/jekyll/update/2018/02/03/how-to-package-mac.html">&lt;h1 id=&quot;how-to-package-macos&quot;&gt;How to Package MacOS&lt;/h1&gt;
+
+&lt;p&gt;At this time you can not build the MacOS app via the PWA Builder Web Site, so you’ll need to build this app via the CLI tool.  MacOS is supported in the &lt;a href=&quot;https://www.npmjs.com/package/pwabuilder-mac&quot;&gt;macOS platform module&lt;/a&gt; for pwabuilder.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Make sure &lt;strong&gt;pwabuilder&lt;/strong&gt; installed. If not, install using:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;npm install -g pwabuilder&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Add &lt;strong&gt;macOS platform&lt;/strong&gt; by:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;‘pwabuilder platform add mac pwabuilder-mac’&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Then, use pwabuilder to generate the polyfills:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;‘pwabuilder https://btdj.azurewebsites.net/ -d C:\Projects -l debug -p mac’&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Parameter&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;-d&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;the directory you would like to generate the app&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;-l&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;the log level of the CLI&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;-p&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;the platforms to build&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; if you would like to submit the app to the mac store, continue on with step 4 and 5&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;You’ll need to download and install &lt;a href=&quot;https://developer.apple.com/xcode/downloads/&quot;&gt;Xcode&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Then, you can follow the&lt;a href=&quot;https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/SubmittingYourApp/SubmittingYourApp.html&quot;&gt; Submitting Your App to the Store&lt;/a&gt; steps in the Apple’s App Distribution Guide.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">How to Package MacOS At this time you can not build the MacOS app via the PWA Builder Web Site, so you’ll need to build this app via the CLI tool. MacOS is supported in the macOS platform module for pwabuilder. Make sure pwabuilder installed. If not, install using: npm install -g pwabuilder Add macOS platform by: ‘pwabuilder platform add mac pwabuilder-mac’ Then, use pwabuilder to generate the polyfills: ‘pwabuilder https://btdj.azurewebsites.net/ -d C:\Projects -l debug -p mac’ Parameter Description -d the directory you would like to generate the app -l the log level of the CLI -p the platforms to build Note if you would like to submit the app to the mac store, continue on with step 4 and 5 You’ll need to download and install Xcode Then, you can follow the Submitting Your App to the Store steps in the Apple’s App Distribution Guide.</summary></entry><entry><title type="html">How to Package iOS</title><link href="/jekyll/update/2018/02/03/how-to-package-ios.html" rel="alternate" type="text/html" title="How to Package iOS" /><published>2018-02-03T20:07:25-06:00</published><updated>2018-02-03T20:07:25-06:00</updated><id>/jekyll/update/2018/02/03/how-to-package-ios</id><content type="html" xml:base="/jekyll/update/2018/02/03/how-to-package-ios.html">&lt;h1 id=&quot;how-to-package-ios&quot;&gt;How to Package iOS&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;In the Publish PWA step of the builder wizard, locate the iOS Polyfill section and click the Download button. The app package will be generated and downloaded to your local drive.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/ios-polyfill.png&quot; alt=&quot;iOS Polyfill&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Extract the package into a local folder&lt;/li&gt;
+  &lt;li&gt;You’ll need to download and install &lt;a href=&quot;https://developer.apple.com/xcode/downloads/&quot;&gt;Xcode&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Then, you can follow the&lt;a href=&quot;https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/SubmittingYourApp/SubmittingYourApp.html&quot;&gt; Submitting Your App to the Store&lt;/a&gt; steps in the Apple’s App Distribution Guide.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">How to Package iOS In the Publish PWA step of the builder wizard, locate the iOS Polyfill section and click the Download button. The app package will be generated and downloaded to your local drive. Extract the package into a local folder You’ll need to download and install Xcode Then, you can follow the Submitting Your App to the Store steps in the Apple’s App Distribution Guide.</summary></entry><entry><title type="html">How to Package Android</title><link href="/jekyll/update/2018/02/03/how-to-package-android.html" rel="alternate" type="text/html" title="How to Package Android" /><published>2018-02-03T20:07:25-06:00</published><updated>2018-02-03T20:07:25-06:00</updated><id>/jekyll/update/2018/02/03/how-to-package-android</id><content type="html" xml:base="/jekyll/update/2018/02/03/how-to-package-android.html">&lt;h1 id=&quot;how-to-package-android&quot;&gt;How to Package Android&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;In the &lt;strong&gt;Publish PWA&lt;/strong&gt; step of the builder wizard, locate the &lt;strong&gt;Android&lt;/strong&gt; section and click the &lt;strong&gt;Download&lt;/strong&gt; button. The app package will be generated and downloaded to your local drive.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/android-polyfill.png&quot; alt=&quot;Android Polyfill&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Extract the package into a local folder&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Open the project in Android Studio
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;Download and install the &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/index.html&quot;&gt;Java SDK&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;http://developer.android.com/sdk/installing/index.html?pkg=studio&quot;&gt;Download&lt;/a&gt; and install Android Studio and the Android SDK&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Open Android Studio and select the &lt;strong&gt;Import project&lt;/strong&gt; option. Select the folder &lt;strong&gt;projects/Polyfills/cordova/platforms/android&lt;/strong&gt; and click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The version of Gradle installed by Android studio might not be compatible with the project’s Gradle configuration. If that is the case, Android Studio will show an error and provide an option to fix/upgrade the project.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Test the project&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;In Android Studio, select &lt;strong&gt;Run &amp;gt; Run&lt;/strong&gt; in the menu bar to build and run the app&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;If it is the first time running the app, Android Studio asks to select a deployment target. Select a device or emulator to install and run the app&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Build the project&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;table&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;Select the build variant (debug&lt;/td&gt;
+              &lt;td&gt;release) from the &lt;strong&gt;Build Variants&lt;/strong&gt; window&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;In Android Studio, select &lt;strong&gt;Build &amp;gt; Build APK&lt;/strong&gt; in the menu bar. The APKs are saved in &lt;strong&gt;projects/Polyfills/cordova/platforms/android/build/outputs/apk/&lt;/strong&gt;&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Before you can generate a release version of your app for public distribution, you must &lt;a href=&quot;https://developer.android.com/tools/publishing/app-signing.html&quot;&gt;sign your APK&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Submit the app to the Store&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;p&gt;Go to the &lt;a href=&quot;https://play.google.com/apps/publish/signup/&quot;&gt;Google Play Developer Console&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Follow the steps to:&lt;/p&gt;
+
+        &lt;ol&gt;
+          &lt;li&gt;
+            &lt;p&gt;Setup an Android Developer account&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Reserve a name for your app&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Upload your app package&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">How to Package Android In the Publish PWA step of the builder wizard, locate the Android section and click the Download button. The app package will be generated and downloaded to your local drive. Extract the package into a local folder Open the project in Android Studio Download and install the Java SDK Download and install Android Studio and the Android SDK Open Android Studio and select the Import project option. Select the folder projects/Polyfills/cordova/platforms/android and click OK. Note: The version of Gradle installed by Android studio might not be compatible with the project’s Gradle configuration. If that is the case, Android Studio will show an error and provide an option to fix/upgrade the project. Test the project In Android Studio, select Run &amp;gt; Run in the menu bar to build and run the app If it is the first time running the app, Android Studio asks to select a deployment target. Select a device or emulator to install and run the app Build the project Select the build variant (debug release) from the Build Variants window In Android Studio, select Build &amp;gt; Build APK in the menu bar. The APKs are saved in projects/Polyfills/cordova/platforms/android/build/outputs/apk/ Note: Before you can generate a release version of your app for public distribution, you must sign your APK Submit the app to the Store Go to the Google Play Developer Console Follow the steps to: Setup an Android Developer account Reserve a name for your app Upload your app package</summary></entry><entry><title type="html">Quick Start Windows 10 Publishing</title><link href="/quickstart/2018/02/03/quick-start-windows10-publishing.html" rel="alternate" type="text/html" title="Quick Start Windows 10 Publishing" /><published>2018-02-03T20:07:25-06:00</published><updated>2018-02-03T20:07:25-06:00</updated><id>/quickstart/2018/02/03/quick-start-windows10-publishing</id><content type="html" xml:base="/quickstart/2018/02/03/quick-start-windows10-publishing.html">&lt;h1 id=&quot;quick-start-windows-10-publishing&quot;&gt;Quick Start Windows 10 Publishing&lt;/h1&gt;
+&lt;p&gt;Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts.&lt;/p&gt;
+
+&lt;p&gt;Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines.&lt;/p&gt;
+
+&lt;h2 id=&quot;self-publish-through-windows-dev-center&quot;&gt;Self Publish through Windows Dev Center&lt;/h2&gt;
+&lt;p&gt;You can easily create a listing for your PWA within the Microsoft Store on Windows 10.  Your PWA package can then be uploaded for users to discover&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Obtain a &lt;a href=&quot;https://dev.windows.com&quot;&gt;Windows Dev Account&lt;/a&gt;.  The PWA builder team has a limited number of account tokens that can be used by web develper to cover the cost of a dev account with Microsoft for the beta.  Reach out to jeffburt@microsoft.com or @boyofgreen on twitter for a code.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Login to dev.windows.com and start a “new app” to reserve the name of your app.  ** You must use the same name as the “name” or “short_name” on your W3C manifest.** The dev center will tell you if the name is not available.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In the Windows 10 Dev center, find the “publisher dispaly name”, “Publisher Identity” and “Package Indentity Name” of your app. You’ll find it under App Management &amp;gt; App Identity&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to preview.pwabuilder.com and enter your url.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;On step 3, choose “generate Appx” and enter the info the requested info from the dev center.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Find appx named “windows.appx” in a new directory named “packages” in \PWA\Store packages\windows10&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go back to the dev center and upload the Appx from pwabuilder .&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;publish-via-cli&quot;&gt;Publish via CLI&lt;/h2&gt;
+&lt;p&gt;Your PWA can be created and app listing generated for supported platforms (using the -p option, in this case windows10).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;pwabuilder package C:\Projects\HotBeats -p windows10 -a -l debug&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-cli-publish-windows10.png&quot; alt=&quot;Service Worker Code&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Quick Start Windows 10 Publishing Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts. Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines. Self Publish through Windows Dev Center You can easily create a listing for your PWA within the Microsoft Store on Windows 10. Your PWA package can then be uploaded for users to discover Obtain a Windows Dev Account. The PWA builder team has a limited number of account tokens that can be used by web develper to cover the cost of a dev account with Microsoft for the beta. Reach out to jeffburt@microsoft.com or @boyofgreen on twitter for a code. Login to dev.windows.com and start a “new app” to reserve the name of your app. ** You must use the same name as the “name” or “short_name” on your W3C manifest.** The dev center will tell you if the name is not available. In the Windows 10 Dev center, find the “publisher dispaly name”, “Publisher Identity” and “Package Indentity Name” of your app. You’ll find it under App Management &amp;gt; App Identity Go to preview.pwabuilder.com and enter your url. On step 3, choose “generate Appx” and enter the info the requested info from the dev center. Find appx named “windows.appx” in a new directory named “packages” in \PWA\Store packages\windows10 Go back to the dev center and upload the Appx from pwabuilder . Publish via CLI Your PWA can be created and app listing generated for supported platforms (using the -p option, in this case windows10). Example: pwabuilder package C:\Projects\HotBeats -p windows10 -a -l debug</summary></entry><entry><title type="html">Quick Start for sideloading PWA on Windows 10</title><link href="/quickstart/2018/02/03/quick-start-sideload-pwa-win10.html" rel="alternate" type="text/html" title="Quick Start for sideloading PWA on Windows 10" /><published>2018-02-03T20:07:25-06:00</published><updated>2018-02-03T20:07:25-06:00</updated><id>/quickstart/2018/02/03/quick-start-sideload-pwa-win10</id><content type="html" xml:base="/quickstart/2018/02/03/quick-start-sideload-pwa-win10.html">&lt;h1 id=&quot;quick-start-for-sideloading-pwa-on-windows-10&quot;&gt;Quick Start for sideloading PWA on Windows 10&lt;/h1&gt;
+
+&lt;p&gt;You can easily test a PWA on any Windows 10 Machine by creating a package and sideloading it.&lt;/p&gt;
+
+&lt;h2 id=&quot;sideload-a-pwa&quot;&gt;Sideload a PWA&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make sure your PC is in “dev” mode.  Go to “settings &amp;gt; Update &amp;amp; Security &amp;gt; for developers” and then put device in dev mode.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to pwabuilder.com and enter your site URL.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;On step 3 of pwabuilder.com click “download”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;open the “Windows 10” folder and right click on the powershell script called “test_install.ps1” and follow the prompts&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open your start menu / start screen and look for app in “recently added” or search for the name from your manifest.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;running-service-workers-prior-to-windows-10-rs4&quot;&gt;Running Service Workers prior to Windows 10 RS4&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Join the insiders program at &lt;a href=&quot;https://insider.windows.com/&quot;&gt;Windows Insider&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Check for updates on your PC until insider updates load.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Follow above instructions but use &lt;a href=&quot;https://preview.pwabuilder.com&quot;&gt;preview.pwabuilder.com&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Quick Start for sideloading PWA on Windows 10 You can easily test a PWA on any Windows 10 Machine by creating a package and sideloading it. Sideload a PWA Make sure your PC is in “dev” mode. Go to “settings &amp;gt; Update &amp;amp; Security &amp;gt; for developers” and then put device in dev mode. Go to pwabuilder.com and enter your site URL. On step 3 of pwabuilder.com click “download” open the “Windows 10” folder and right click on the powershell script called “test_install.ps1” and follow the prompts Open your start menu / start screen and look for app in “recently added” or search for the name from your manifest. Running Service Workers prior to Windows 10 RS4 Join the insiders program at Windows Insider Check for updates on your PC until insider updates load. Follow above instructions but use preview.pwabuilder.com.</summary></entry><entry><title type="html">Quick Start PWA using CLI tools</title><link href="/quickstart/2018/02/03/quick-start-pwa-using-cli-tools.html" rel="alternate" type="text/html" title="Quick Start PWA using CLI tools" /><published>2018-02-03T20:07:25-06:00</published><updated>2018-02-03T20:07:25-06:00</updated><id>/quickstart/2018/02/03/quick-start-pwa-using-cli-tools</id><content type="html" xml:base="/quickstart/2018/02/03/quick-start-pwa-using-cli-tools.html">&lt;h1 id=&quot;quick-start-pwa-using-cli-tools&quot;&gt;Quick Start PWA using CLI tools&lt;/h1&gt;
+
+&lt;p&gt;This quick start walks you through the steps to create a Progressive Web App (PWA) from scratch using the &lt;strong&gt;pwabuilder CLI Tools&lt;/strong&gt;. Make sure you meet the &lt;a href=&quot;/what/is/a/pwa/2018/02/03/pwa-min-requirements.html&quot;&gt;minimum requirements&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The first step is to build the Manifest for your application using the &lt;strong&gt;pwabuilder CLI Tools&lt;/strong&gt;. The builder will search in the home page of your site looking for information about the app in specific meta tags. For more information, read &lt;a href=&quot;/what/is/a/pwa/2018/02/03/what-is-a-manifest.html&quot;&gt;What is a Manifest&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;manifest&quot;&gt;Manifest&lt;/h2&gt;
+&lt;p&gt;The Manifest for Web Apps is a JSON-based manifest file that provides a centralized place to put metadata associated with a web application (like app name, icons, presentation, etc.), thus solving the problem of having to maintain an heterogeneous set of meta tags and link tags to support each platform. PWAs use this manifest to control the appearance and behavior of the app when it is installed and launched from the user device. For more details see the Web App Manifest Specification.&lt;/p&gt;
+
+&lt;h3 id=&quot;install-the-tools&quot;&gt;Install the Tools&lt;/h3&gt;
+&lt;p&gt;Before installing &lt;strong&gt;pwabuilder CLI Tools&lt;/strong&gt;, you must first install &lt;a href=&quot;https://nodejs.org/&quot;&gt;Node.js&lt;/a&gt; (version 0.12.0 or later).&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open a command prompt or terminal window and type the following command:&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;npm install pwabuilder -g&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;generate-manifest&quot;&gt;Generate Manifest&lt;/h3&gt;
+&lt;p&gt;The &lt;strong&gt;pwabuilder CLI Tools&lt;/strong&gt; will search in the home page of your site looking for an existing manifest. If not, it will gather information about the app in specific meta tags or propose default values for the manifest properties. It will also show any warnings or suggestions to address potential issues in the collected metadata. Make sure you address any warnings before you move on.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Usage:&lt;/strong&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;pwabuilder &amp;lt;website-url&amp;gt; [options]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;pwabuilder https://btdj.azurewebsites.net/ -d C:\Projects -l debug -p windows10,android&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-cli-generate-manifest.png&quot; alt=&quot;Generate Manifest&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;service-workers&quot;&gt;Service Workers&lt;/h2&gt;
+&lt;p&gt;During this step you will choose functionalities you want to add to your app. You will include code to use sample service workers implementing those features from a repository. Learn more about service workers &lt;a href=&quot;../whatPWA/what-is-a-service-worker&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;build-service-worker&quot;&gt;Build Service Worker&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Open a browser and navigate to the &lt;a href=&quot;https://github.com/pwabuilder/serviceworkers&quot;&gt;serviceworkers&lt;/a&gt; repository&lt;/li&gt;
+  &lt;li&gt;In this repository you will find sample code of service workers implementing the following features:
+    &lt;ul&gt;
+      &lt;li&gt;Offline page (location: &lt;a href=&quot;https://github.com/pwabuilder/serviceworkers/tree/master/serviceWorker1&quot;&gt;/ServiceWorker1&lt;/a&gt; folder)&lt;/li&gt;
+      &lt;li&gt;Offline copy of pages (location: &lt;a href=&quot;https://github.com/pwabuilder/serviceworkers/tree/master/serviceWorker2&quot;&gt;/ServiceWorker2&lt;/a&gt; folder)&lt;/li&gt;
+      &lt;li&gt;Combination of offline page + offline copy of pages (location: &lt;a href=&quot;https://github.com/pwabuilder/serviceworkers/tree/master/serviceWorker3&quot;&gt;/ServiceWorker3&lt;/a&gt; folder)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Download the service worker files including the code for your website and the service worker code
+    &lt;ol&gt;
+      &lt;li&gt;pwabuilder-sw-register.js registers the service worker for the website&lt;/li&gt;
+      &lt;li&gt;pwabuilder-sw.js is the service worker’s code&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The code for your website should be included in your HTML to register the service worker&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-cli-code-for-website.png&quot; alt=&quot;Code for Website&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Upload the service worker code JS file to the web site&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-cli-service-worker-code.png&quot; alt=&quot;Service Worker Code&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;publishing&quot;&gt;Publishing&lt;/h2&gt;
+&lt;p&gt;Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts.&lt;/p&gt;
+
+&lt;h3 id=&quot;web&quot;&gt;Web&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;This is still a web app, so step one is to include these new files into your web site. You can grab file created in the &lt;em&gt;Generate Manifest&lt;/em&gt; step and the script files in the &lt;em&gt;Build Service Worker&lt;/em&gt; step&lt;/li&gt;
+  &lt;li&gt;Add and upload them to your website. Different browsers will detect your Progressive Web App in different ways, but the &lt;strong&gt;manifest&lt;/strong&gt; and &lt;strong&gt;service workers&lt;/strong&gt; are required for each of them.
+    &lt;ul&gt;
+      &lt;li&gt;The Web App Manifest is deployed in your HTML pages using a &lt;strong&gt;link&lt;/strong&gt; tag in the head of your document: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+      &lt;li&gt;Also, add and upload references &lt;strong&gt;images&lt;/strong&gt; and &lt;strong&gt;service worker&lt;/strong&gt; files to the root path of the site.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;windows&quot;&gt;Windows&lt;/h3&gt;
+&lt;p&gt;Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines. Your PWA can be created and app listing generated for supported platforms (using the -p option, in this case windows10).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;pwabuilder package C:\Projects\HotBeats -p windows10 -a -l debug&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-cli-publish-windows10.png&quot; alt=&quot;Service Worker Code&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;android&quot;&gt;Android&lt;/h3&gt;
+&lt;p&gt;Publishing directly to the Android Play Store will be coming soon.&lt;/p&gt;
+
+&lt;h3 id=&quot;other&quot;&gt;Other&lt;/h3&gt;
+&lt;p&gt;You can now generate the polyfill packages to publish both Android and iOS. You’ll need Xcode to build and submit your package to the Store.&lt;/p&gt;
+
+&lt;h2 id=&quot;polyfills&quot;&gt;Polyfills&lt;/h2&gt;
+&lt;p&gt;Given that not every platform or browser runs PWAs yet, the builder provides polyfills for platforms that lack support like &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-ios.html&quot;&gt;iOS&lt;/a&gt;, &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-mac.html&quot;&gt;Mac&lt;/a&gt; and &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-windows7.html&quot;&gt;Windows 7&lt;/a&gt;.
+In case of Android, PWAs are available through the browser; however, you can generate an &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-android.html&quot;&gt;Android&lt;/a&gt; polyfill app that can be also submitted to the Play store.&lt;/p&gt;
+
+&lt;h3 id=&quot;android-1&quot;&gt;Android&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;In case you haven’t done in the previous step, you can generate the polyfills for Android executing: &lt;code class=&quot;highlighter-rouge&quot;&gt;pwabuilder https://btdj.azurewebsites.net/ -p android&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Then, follow the &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-android.html&quot;&gt;instructions&lt;/a&gt; to publish your Android app.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;ios&quot;&gt;iOS&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;In case you haven’t done in the previous step, you can generate the polyfills for iOS executing: &lt;code class=&quot;highlighter-rouge&quot;&gt;pwabuilder https://btdj.azurewebsites.net/ -p ios&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Then, follow the &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-ios.html&quot;&gt;instructions&lt;/a&gt; to publish your Android app.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;macos&quot;&gt;MacOS&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Follow the &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-mac.html&quot;&gt;instructions&lt;/a&gt; to publish your MacOS app.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;windows-7&quot;&gt;Windows 7&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Follow the &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-windows7.html&quot;&gt;instructions&lt;/a&gt; to publish your Windows 7 app.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Quick Start PWA using CLI tools This quick start walks you through the steps to create a Progressive Web App (PWA) from scratch using the pwabuilder CLI Tools. Make sure you meet the minimum requirements. The first step is to build the Manifest for your application using the pwabuilder CLI Tools. The builder will search in the home page of your site looking for information about the app in specific meta tags. For more information, read What is a Manifest. Manifest The Manifest for Web Apps is a JSON-based manifest file that provides a centralized place to put metadata associated with a web application (like app name, icons, presentation, etc.), thus solving the problem of having to maintain an heterogeneous set of meta tags and link tags to support each platform. PWAs use this manifest to control the appearance and behavior of the app when it is installed and launched from the user device. For more details see the Web App Manifest Specification. Install the Tools Before installing pwabuilder CLI Tools, you must first install Node.js (version 0.12.0 or later). Open a command prompt or terminal window and type the following command: npm install pwabuilder -g Generate Manifest The pwabuilder CLI Tools will search in the home page of your site looking for an existing manifest. If not, it will gather information about the app in specific meta tags or propose default values for the manifest properties. It will also show any warnings or suggestions to address potential issues in the collected metadata. Make sure you address any warnings before you move on. Usage: pwabuilder &amp;lt;website-url&amp;gt; [options] Example: pwabuilder https://btdj.azurewebsites.net/ -d C:\Projects -l debug -p windows10,android Service Workers During this step you will choose functionalities you want to add to your app. You will include code to use sample service workers implementing those features from a repository. Learn more about service workers here. Build Service Worker Open a browser and navigate to the serviceworkers repository In this repository you will find sample code of service workers implementing the following features: Offline page (location: /ServiceWorker1 folder) Offline copy of pages (location: /ServiceWorker2 folder) Combination of offline page + offline copy of pages (location: /ServiceWorker3 folder) Download the service worker files including the code for your website and the service worker code pwabuilder-sw-register.js registers the service worker for the website pwabuilder-sw.js is the service worker’s code The code for your website should be included in your HTML to register the service worker Upload the service worker code JS file to the web site Publishing Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts. Web This is still a web app, so step one is to include these new files into your web site. You can grab file created in the Generate Manifest step and the script files in the Build Service Worker step Add and upload them to your website. Different browsers will detect your Progressive Web App in different ways, but the manifest and service workers are required for each of them. The Web App Manifest is deployed in your HTML pages using a link tag in the head of your document: &amp;lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot;&amp;gt;. Also, add and upload references images and service worker files to the root path of the site. Windows Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines. Your PWA can be created and app listing generated for supported platforms (using the -p option, in this case windows10). Example: pwabuilder package C:\Projects\HotBeats -p windows10 -a -l debug Android Publishing directly to the Android Play Store will be coming soon. Other You can now generate the polyfill packages to publish both Android and iOS. You’ll need Xcode to build and submit your package to the Store. Polyfills Given that not every platform or browser runs PWAs yet, the builder provides polyfills for platforms that lack support like iOS, Mac and Windows 7. In case of Android, PWAs are available through the browser; however, you can generate an Android polyfill app that can be also submitted to the Play store. Android In case you haven’t done in the previous step, you can generate the polyfills for Android executing: pwabuilder https://btdj.azurewebsites.net/ -p android Then, follow the instructions to publish your Android app. iOS In case you haven’t done in the previous step, you can generate the polyfills for iOS executing: pwabuilder https://btdj.azurewebsites.net/ -p ios Then, follow the instructions to publish your Android app. MacOS Follow the instructions to publish your MacOS app. Windows 7 Follow the instructions to publish your Windows 7 app.</summary></entry><entry><title type="html">Quick Start PWA on Website</title><link href="/quickstart/2018/02/03/quick-start-pwa-on-website.html" rel="alternate" type="text/html" title="Quick Start PWA on Website" /><published>2018-02-03T20:07:25-06:00</published><updated>2018-02-03T20:07:25-06:00</updated><id>/quickstart/2018/02/03/quick-start-pwa-on-website</id><content type="html" xml:base="/quickstart/2018/02/03/quick-start-pwa-on-website.html">&lt;h1 id=&quot;quick-start-pwa-on-website&quot;&gt;Quick Start PWA on Website&lt;/h1&gt;
+
+&lt;p&gt;This quick start walks you through the steps to create a Progressive Web App (PWA) from scratch using the &lt;strong&gt;pwabuilder.com&lt;/strong&gt; builder site. Make sure your website meets the &lt;a href=&quot;/what/is/a/pwa/2018/02/03/pwa-min-requirements.html&quot;&gt;minimum requirements&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The first step is to build the Manifest for your application using the &lt;strong&gt;pwabuilder.com&lt;/strong&gt; web site. The builder will search in the home page of your site looking for information about the app in specific meta tags. For more information, read &lt;a href=&quot;/what/is/a/pwa/2018/02/03/what-is-a-manifest.html&quot;&gt;What is a Manifest&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;provide-a-url&quot;&gt;Provide a URL&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open a browser and navigate to &lt;a href=&quot;https://preview.pwabuilder.com&quot;&gt;https://preview.pwabuilder.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Click on the &lt;strong&gt;Get Started&lt;/strong&gt; button&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In the URL textbox, enter the URL of your site and click on &lt;strong&gt;Get Started&lt;/strong&gt; again&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-website-provide-a-url.png&quot; alt=&quot;Provide a URL&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;generate-manifest&quot;&gt;Generate Manifest&lt;/h3&gt;
+&lt;p&gt;The builder will search in the home page of your site looking for an existing manifest. If not, it will gather information about the app in specific meta tags or propose default values for the manifest properties. It will also show any warnings or suggestions to address potential issues in the collected metadata. Make sure you address any warnings before you move on.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If your site already has a manifest in place and you are comfortable with the current manifest data, you can skip this step and click on &lt;strong&gt;Next step&lt;/strong&gt; at the right top of the wizard to jump directly to the &lt;strong&gt;Build Service Worker&lt;/strong&gt; step.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-website-generate-manifest.png&quot; alt=&quot;Generate Manifest&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;add-images&quot;&gt;Add Images&lt;/h4&gt;
+&lt;p&gt;The builder site also checks whether the manifest has defined the expected icon sizes for the different platforms (Windows, Android, iOS) and helps to generate the missing sizes. You can also generate missing image sizes for other platforms using the &lt;a href=&quot;http://appimagegenerator-pre.azurewebsites.net/&quot;&gt;PWA Image Generator&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;In our example, we don’t have any image defined in the manifest so we’ll proceed uploading an image with our app logo. To do this, click on the &lt;strong&gt;Upload an image…&lt;/strong&gt; link at the left pane. Browse to the location of the image to upload and, if you want to generate the missing sizes, make sure the &lt;strong&gt;Generate missing images from this image&lt;/strong&gt; checkbox is marked.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Currently, the &lt;strong&gt;Upload image&lt;/strong&gt; option will only generate the required image sizes for Windows 10.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-website-upload-an-image.png&quot; alt=&quot;Upload an Image&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click &lt;strong&gt;Submit&lt;/strong&gt;. In our example, the missing image sizes are automatically generated and added to the manifest.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-website-images-preview.png&quot; alt=&quot;Images Preview&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;download-manifest&quot;&gt;Download Manifest&lt;/h4&gt;
+&lt;p&gt;Once you are done with the updates to the manifest you can download the web app manifest here. Also, you can move on to build a Service Worker and/or Publish your PWA in the next steps.&lt;/p&gt;
+
+&lt;h2 id=&quot;service-workers&quot;&gt;Service Workers&lt;/h2&gt;
+&lt;p&gt;During this step you will choose functionalities you want to add to your app. The builder will include code to use sample service workers implementing those features from a repository. Learn more about service workers &lt;a href=&quot;/what/is/a/pwa/2018/02/03/what-is-a-service-worker.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;By default, the builder includes the Offline page service worker to pull a file from your web server called “offline.html” and serve the file whenever a network connection cannot be made.
+Additionally, you can select the Offline copy of pages service worker to keep a cache of all visited pages and serve the stored version in case any fetch fails. Also, the builder can include both features into a combined service worker for a full offline experience.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select the functionalities you want to include in your application&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-website-select-service-workers.png&quot; alt=&quot;Select Service Workers&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Download the service worker package including the code for your website and the service worker code&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The code for your website should be included in your HTML to register the service worker&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-website-code-for-website.png&quot; alt=&quot;Code for Website&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Upload the service worker code JS file to the web site&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-website-service-worker-code.png&quot; alt=&quot;Service Worker Code&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;publishing&quot;&gt;Publishing&lt;/h2&gt;
+&lt;p&gt;Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts.&lt;/p&gt;
+
+&lt;h3 id=&quot;web&quot;&gt;Web&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;This is still a web app, so step one is to include these new files into your web site. You can click the &lt;strong&gt;Download&lt;/strong&gt; button of the Web section to get the files that you need to add to your site.&lt;/li&gt;
+  &lt;li&gt;Add and upload them to your website. Different browsers will detect your Progressive Web App in different ways, but the &lt;strong&gt;manifest&lt;/strong&gt; and &lt;strong&gt;service workers&lt;/strong&gt; are required for each of them. 
+     ○ The Web App Manifest is deployed in your HTML pages using a &lt;strong&gt;link&lt;/strong&gt; tag in the head of your document: &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot;&amp;gt;&lt;/code&gt;.
+     ○ Also, add and upload references &lt;strong&gt;images&lt;/strong&gt; and &lt;strong&gt;service worker&lt;/strong&gt; files to the root path of the site.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;windows&quot;&gt;Windows&lt;/h3&gt;
+&lt;p&gt;Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines. Your PWA can be created and app listing generated from the below one step publishing button.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Click &lt;strong&gt;Publish 1-step&lt;/strong&gt; button under the Windows panel&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enter the user name or company name and a valid email address&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-website-publish-package.png&quot; alt=&quot;Publish Package&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Click &lt;strong&gt;Submit&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;android&quot;&gt;Android&lt;/h3&gt;
+&lt;p&gt;Publishing directly to the Android Play Store will be coming soon.&lt;/p&gt;
+
+&lt;h3 id=&quot;other&quot;&gt;Other&lt;/h3&gt;
+&lt;p&gt;You can now download polyfill packages to publish both Android and iOS. You’ll need Xcode to build and submit your package to the Store.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-website-platforms.png&quot; alt=&quot;Platforms&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;polyfills&quot;&gt;Polyfills&lt;/h2&gt;
+&lt;p&gt;Given that not every platform or browser runs PWAs yet, the builder provides polyfills for platforms that lack support like &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-ios.html&quot;&gt;iOS&lt;/a&gt;, &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-mac.html&quot;&gt;Mac&lt;/a&gt; and &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-windows7.html&quot;&gt;Windows 7&lt;/a&gt;.
+In case of Android, PWAs are available through the browser; however, you can generate an &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-android.html&quot;&gt;Android&lt;/a&gt; polyfill app that can be also submitted to the Play store.&lt;/p&gt;
+
+&lt;h3 id=&quot;android-1&quot;&gt;Android&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;In the &lt;strong&gt;Publish PWA&lt;/strong&gt; step of the builder wizard, locate the &lt;strong&gt;Android&lt;/strong&gt; section and click the &lt;strong&gt;Download&lt;/strong&gt; button. The app package will be generated and downloaded to your local drive.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-website-android-polyfill.png&quot; alt=&quot;Android Polyfill&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Then, follow the &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-android.html&quot;&gt;instructions&lt;/a&gt; to publish your Android app.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;ios&quot;&gt;iOS&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;In the &lt;strong&gt;Publish PWA&lt;/strong&gt; step of the builder wizard, locate the &lt;strong&gt;iOS Polyfill&lt;/strong&gt; section and click the &lt;strong&gt;Download&lt;/strong&gt; button. The app package will be generated and downloaded to your local drive.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/quickstart-pwa-website-ios-polyfill.png&quot; alt=&quot;iOS Polyfill&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Then, follow the &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-ios.html&quot;&gt;instructions&lt;/a&gt; to publish your iOS app.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;mac&quot;&gt;Mac&lt;/h3&gt;
+&lt;p&gt;Not supported on the website. See “QuickStart PWA via CLI”&lt;/p&gt;
+
+&lt;h3 id=&quot;win7&quot;&gt;Win7&lt;/h3&gt;
+&lt;p&gt;Not supported on the website. See “QuickStart PWA via CLI”&lt;/p&gt;</content><author><name></name></author><summary type="html">Quick Start PWA on Website This quick start walks you through the steps to create a Progressive Web App (PWA) from scratch using the pwabuilder.com builder site. Make sure your website meets the minimum requirements. The first step is to build the Manifest for your application using the pwabuilder.com web site. The builder will search in the home page of your site looking for information about the app in specific meta tags. For more information, read What is a Manifest. Provide a URL Open a browser and navigate to https://preview.pwabuilder.com Click on the Get Started button In the URL textbox, enter the URL of your site and click on Get Started again Generate Manifest The builder will search in the home page of your site looking for an existing manifest. If not, it will gather information about the app in specific meta tags or propose default values for the manifest properties. It will also show any warnings or suggestions to address potential issues in the collected metadata. Make sure you address any warnings before you move on. Note: If your site already has a manifest in place and you are comfortable with the current manifest data, you can skip this step and click on Next step at the right top of the wizard to jump directly to the Build Service Worker step. Add Images The builder site also checks whether the manifest has defined the expected icon sizes for the different platforms (Windows, Android, iOS) and helps to generate the missing sizes. You can also generate missing image sizes for other platforms using the PWA Image Generator. In our example, we don’t have any image defined in the manifest so we’ll proceed uploading an image with our app logo. To do this, click on the Upload an image… link at the left pane. Browse to the location of the image to upload and, if you want to generate the missing sizes, make sure the Generate missing images from this image checkbox is marked. Note: Currently, the Upload image option will only generate the required image sizes for Windows 10. Click Submit. In our example, the missing image sizes are automatically generated and added to the manifest. Download Manifest Once you are done with the updates to the manifest you can download the web app manifest here. Also, you can move on to build a Service Worker and/or Publish your PWA in the next steps. Service Workers During this step you will choose functionalities you want to add to your app. The builder will include code to use sample service workers implementing those features from a repository. Learn more about service workers here. By default, the builder includes the Offline page service worker to pull a file from your web server called “offline.html” and serve the file whenever a network connection cannot be made. Additionally, you can select the Offline copy of pages service worker to keep a cache of all visited pages and serve the stored version in case any fetch fails. Also, the builder can include both features into a combined service worker for a full offline experience. Select the functionalities you want to include in your application Download the service worker package including the code for your website and the service worker code The code for your website should be included in your HTML to register the service worker Upload the service worker code JS file to the web site Publishing Publishing your Progressive Web App is mainly a matter of adding the W3C manifest file and service worker scripts to your website. These assets are then referenced from your website, both with a link tag reference to the manifest file and the service worker registration scripts. Web This is still a web app, so step one is to include these new files into your web site. You can click the Download button of the Web section to get the files that you need to add to your site. Add and upload them to your website. Different browsers will detect your Progressive Web App in different ways, but the manifest and service workers are required for each of them. ○ The Web App Manifest is deployed in your HTML pages using a link tag in the head of your document: &amp;lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot;&amp;gt;. ○ Also, add and upload references images and service worker files to the root path of the site. Windows Windows 10 PWA support is still in Beta, so some features like service workers will not work on all user machines. Your PWA can be created and app listing generated from the below one step publishing button. Click Publish 1-step button under the Windows panel Enter the user name or company name and a valid email address Click Submit. Android Publishing directly to the Android Play Store will be coming soon. Other You can now download polyfill packages to publish both Android and iOS. You’ll need Xcode to build and submit your package to the Store. Polyfills Given that not every platform or browser runs PWAs yet, the builder provides polyfills for platforms that lack support like iOS, Mac and Windows 7. In case of Android, PWAs are available through the browser; however, you can generate an Android polyfill app that can be also submitted to the Play store. Android In the Publish PWA step of the builder wizard, locate the Android section and click the Download button. The app package will be generated and downloaded to your local drive. Then, follow the instructions to publish your Android app. iOS In the Publish PWA step of the builder wizard, locate the iOS Polyfill section and click the Download button. The app package will be generated and downloaded to your local drive. Then, follow the instructions to publish your iOS app. Mac Not supported on the website. See “QuickStart PWA via CLI” Win7 Not supported on the website. See “QuickStart PWA via CLI”</summary></entry><entry><title type="html">Quick Start Polyfills</title><link href="/quickstart/2018/02/03/quick-start-polyfills.html" rel="alternate" type="text/html" title="Quick Start Polyfills" /><published>2018-02-03T20:07:25-06:00</published><updated>2018-02-03T20:07:25-06:00</updated><id>/quickstart/2018/02/03/quick-start-polyfills</id><content type="html" xml:base="/quickstart/2018/02/03/quick-start-polyfills.html">&lt;h1 id=&quot;quick-start-polyfills&quot;&gt;Quick Start Polyfills&lt;/h1&gt;
+
+&lt;p&gt;Given that not every platform or browser runs PWAs yet, the builder provides polyfills for platforms that lack support like &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-ios.html&quot;&gt;iOS&lt;/a&gt;, &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-mac.html&quot;&gt;Mac&lt;/a&gt; and &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-windows7.html&quot;&gt;Windows 7&lt;/a&gt;.
+In case of Android, PWAs are available through the browser; however, you can generate an &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-android.html&quot;&gt;Android&lt;/a&gt; polyfill app that can be also submitted to the Play store.&lt;/p&gt;
+
+&lt;h3 id=&quot;android&quot;&gt;Android&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Follow the Quick Start PWA on Web o the Quick Start PWA using CLI tools to generate the polyfills for Android.&lt;/li&gt;
+  &lt;li&gt;Then, follow the &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-android.html&quot;&gt;instructions&lt;/a&gt; to publish your Android app.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;ios&quot;&gt;iOS&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Follow the Quick Start PWA on Web o the Quick Start PWA using CLI tools to generate the polyfills for iOS.&lt;/li&gt;
+  &lt;li&gt;Then, follow the &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-ios.html&quot;&gt;instructions&lt;/a&gt; to publish your iOS app.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;macos&quot;&gt;MacOS&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Follow the &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-mac.html&quot;&gt;instructions&lt;/a&gt; to publish your MacOS app.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;windows-7&quot;&gt;Windows 7&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Follow the &lt;a href=&quot;/jekyll/update/2018/02/03/how-to-package-windows7.html&quot;&gt;instructions&lt;/a&gt; to publish your Windows 7 app.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Quick Start Polyfills Given that not every platform or browser runs PWAs yet, the builder provides polyfills for platforms that lack support like iOS, Mac and Windows 7. In case of Android, PWAs are available through the browser; however, you can generate an Android polyfill app that can be also submitted to the Play store. Android Follow the Quick Start PWA on Web o the Quick Start PWA using CLI tools to generate the polyfills for Android. Then, follow the instructions to publish your Android app. iOS Follow the Quick Start PWA on Web o the Quick Start PWA using CLI tools to generate the polyfills for iOS. Then, follow the instructions to publish your iOS app. MacOS Follow the instructions to publish your MacOS app. Windows 7 Follow the instructions to publish your Windows 7 app.</summary></entry></feed>
